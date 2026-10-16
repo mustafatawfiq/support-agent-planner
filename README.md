@@ -20,7 +20,6 @@ Actions and rules, Hand-off, Log and tests.
 | `support-agent-builder/` | The skill. `SKILL.md` and its guides interview you, plan the agent, and build it from the tested template in `template/`. |
 | `finished/` | A finished agent for a made-up business, with recorded runs you can watch for free. |
 | `PROMPTS.md` | What to say to your coding agent: the opening prompt and three for later. |
-| `AIS-Live-Customer-Support-Agents-worksheet.pdf` | The planning questions on paper, 2 pages. |
 
 ## First, see it work
 
