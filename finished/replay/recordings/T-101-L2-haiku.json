@@ -1,0 +1,120 @@
+[
+ {
+  "request_key": "76b80cc53842086d",
+  "response": {
+   "id": "msg_011CfyyEaNf7cYNChrYyJqyb",
+   "container": null,
+   "content": [
+    {
+     "id": "toolu_0165Y8PvtNf6RXPLKSAWTSZu",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "ticket_type": "access",
+      "reason": "Customer paid but cannot get into members area; welcome link expired."
+     },
+     "name": "sort_ticket",
+     "type": "tool_use"
+    }
+   ],
+   "model": "anthropic/claude-haiku-5.5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "tool_use",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 1918,
+    "output_tokens": 96,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard",
+    "cost": 0.0002398,
+    "is_byok": false,
+    "cost_details": {
+     "upstream_inference_cost": 0.0002398,
+     "upstream_inference_prompt_cost": 0.0001918,
+     "upstream_inference_completions_cost": 4.8e-05
+    }
+   },
+   "context_management": null,
+   "provider": "Claude Platform on AWS"
+  },
+  "latency": 1.48,
+  "request_id": "gen-1791882367-a8tpM9NyLcfoIcSpysUt"
+ },
+ {
+  "request_key": "32c28adb9764529c",
+  "response": {
+   "id": "msg_011CfyyEgcD7f42fQCfKDCZD",
+   "container": null,
+   "content": [
+    {
+     "signature": "CAQS6AUKEAgSGAI4AUIIdGhpbmtpbmcSDFzn+EypNJzYVtbYxxoMx1hkEK+y+HX4Y7rJIjCtmRkNuwk2lwlbhdceTqsnZqn1ieToPp9wqBklpn2HpeyfZUz77dDHSFzp8UrHKvcqhQUX7XKEJlToePoZKQXzIKMVPmBQTcRphH+UrZ0VOOz2A9Gcj7GWkDdHdzsbRi3VmcYfU88Xpqm9/HWGweIA7ikXIriiXAGVzJRMRxVslxLBcxeNi14Hi49AzUe/UEdoFHZONqGxUqdFSrTj4iV8dCG1dEExAGd+HyfPFNZXy6AR7KcW5d0+dLvFpXqAIZN+vCK1A4OiA4uTh4HitjPh8yBN0598MNu3fBRPKyrxLlBlbG3rtYcszjQkWgc/Vcwx59R47t2Y4UQrDd68Xr+R7WysUCU6iCRKINLHqqPcDwwaGuAuH7IlEEjiNarCU/tB8p+RValyn6pNNEt3Mk3BbD31SivPDFUZrUhIA9dvMDTHuGZX0dzbIgo98ZsdZRbiHuKcIQ/WkrbO9qy+d+zHQnVVOFAQokF961YMLdD38o77Z62aHzatBhHdWOSWxy+p4hH1Eefhm0YXFzIv2F5H6u1lVMQoz6hslz+cnxPgtVvfFVhy9tALg5pnP4UC2Rf7iAnptOdTEng7HNZWrg8XxGevXg9xeIbmUHKnW8gaDOVgIGL1cvV0G6i5rg7o5/mBMJa4HhR8HIYnUtyVjuITBJyDyFuLbOQX+zCFxsHIKZYB5KBp8mMT7/vRJpktFj3O9wVwsi0pj/R7nVzs2R0cBborq1BoPBgzwMhr/pA7lxJPagD+RCavdFFv5FFGMuGLqJaJ5+x3VpjasdgsnhGPktr9qvnVDg8qgk2lVVNtmVQTV94nenpV48Q1s7lJAJMbNhdwc2or39FRAuT06V92vVuaAw82ZRw2js7d3CIOGlb0LjrwMSPSCZKfwGleVhkehoUcoZ/Y4ZL6v2TQB4j1okgzSPm6OfsYAQ==.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1oYWlrdS01LjUtMjAyNjEwMDd8Y2xhdWRlLW9uLWF3cyJ9",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_01YGt7bhWPLyopHwFNAdYCxN",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "ticket_type": "access",
+      "decision": "needs_person",
+      "reply": "Hi Hana, thank you for writing, and sorry you cannot get into the members area yet. I do not have the tools to check your payment or send a new link, so a person from our team will take a look. You will hear back from us within one working day. Kitebridge Support",
+      "sources": [],
+      "note_for_team": "T-101, access. Customer paid last week, cannot enter members area, welcome link reports as expired. I have no account lookup, payment check or link-resend tool, so I could not verify the payment or the account. Please check the payment and send a fresh access link."
+     },
+     "name": "write_reply",
+     "type": "tool_use"
+    }
+   ],
+   "model": "anthropic/claude-haiku-5.5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "tool_use",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 2027,
+    "output_tokens": 351,
+    "output_tokens_details": {
+     "thinking_tokens": 47
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard",
+    "cost": 0.0003782,
+    "is_byok": false,
+    "cost_details": {
+     "upstream_inference_cost": 0.0003782,
+     "upstream_inference_prompt_cost": 0.0002027,
+     "upstream_inference_completions_cost": 0.0001755
+    }
+   },
+   "context_management": null,
+   "provider": "Claude Platform on AWS"
+  },
+  "latency": 2.6,
+  "request_id": "gen-1791882368-MHFbeDOAFC0esbHX5tLh"
+ }
+]

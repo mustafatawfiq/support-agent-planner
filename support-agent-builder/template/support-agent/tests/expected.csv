@@ -1,0 +1,2 @@
+ticket_id,scenario,expect_type,must_call,must_not_call,refund_decision,hand_off_to_person,delivery,reply_must_match,reply_must_not_match
+T-0001,"Refund, eligible",refund,verify_identity;check_refund_eligibility;open_refund_request,hand_off_to_person,eligible,no,draft,,

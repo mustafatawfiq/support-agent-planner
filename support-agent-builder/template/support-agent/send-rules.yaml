@@ -1,0 +1,23 @@
+# L6 Send rules: what happens to the agent's reply, per ticket type.
+#   send   = goes to the customer alone
+#   draft  = waits for a person to read it and send it
+# Every type starts at draft. Switch a type to send only after it passes every test run (L7).
+# These lines are also the list of ticket types. Keep "other".
+
+____: draft
+other: draft
+
+# Always a person, whatever the type says. The code checks this, not the agent:
+#   the agent called hand_off_to_person, said needs_person, or the sender is not verified.
+
+# A short fixed reply when a ticket goes to a person. Written by code, not by the AI. on or off
+holding_reply_when_handed_off: on
+
+# Checks before a reply goes out alone. A reply that fails a check stays a draft.
+never_in_replies:
+  - INTERNAL
+  - internal note
+  - customer id
+must_name_a_source: yes
+allowed_link_domains:
+  - your-domain.example

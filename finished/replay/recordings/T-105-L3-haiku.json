@@ -1,0 +1,139 @@
+[
+ {
+  "request_key": "20fde8787a1b8985",
+  "response": {
+   "id": "msg_011CfyyHB8Fmn3MJ99FGbu8p",
+   "container": null,
+   "content": [
+    {
+     "signature": "CAQSiwYKEAgSGAI4AUIIdGhpbmtpbmcSDI0ATLM+w6adJrul0RoMEBQk4x046T7YA6DFIjCdjN0TiQ2JyT96TerVMfWAUA24GaLS5+X1zaFHutfoybysVoI+pnYIPkw7UF/3K00qqAXDNgRcyyFr+Xj+QkfHSxsZv5ivQPhqrrWska+I8Tst1b84bkOxnM4sTDbXFlALO0XaDYxCY7QQ7aLMxk770VL5sdBUDio5DVtoyeo97pDdhKLZBslHVeJ1elq9bFgkKpo8ctjLRvhBX7zP6lel6/CCLejsvQPWXEYp9z0L/hQS0gNkIAnZ5HW76U8hMIRao/3GpzwFQ+GUiMkqTGGyU38WB69IUEZOWgN15bVX4YGkjVXm6SL7XYpM4kmgf38bURqh/WYrettZHxSLYrgEsNmObLt2FbkFbXXYL24qX7ToYsWvKAajaCl1X4qQ4z4UTzOY3er+WUyMKIavJ8VkBzI2Y6ywSvwq72Gu2RSPagMVQ1XLtT0irsPDRV0M+Z65IDEYnIzyQCZbzbicR6vg0qFJkXL6kTgmZzAbac4Vats67NGlcoYVy+3BTKpkl4lorKkQ58RaWxywRWjIzSmzNA2BlOAj0qNDgnBcAWURqQL3e8Ym9zQ+9Xa0MfPj1Vs4i9xnPpzu0a3jqq14JcgTRvXzPh4v0wIDYEz+keDtQt/0deG18jYqvnh+lMd1toxS7gtg4THfCffN1FGt+dYFZHYmRZYdZA8UatzOdopIG8ZKA66hNOC/Ynzg7F3zCgnjOpMqCd4RogKfETdoLhZ0xCxySaIW3jBsot1Zdg+QyPqoei8J+EXaEZS/xzLnrux8dVCkjKRCick69J4S2C03qYVRuCxZBDQRGXZO6IL9GXyshUTWJddW8Z8GMrPz1IwHNDZHnEC3ZZUMUu+jCcYsf6Vy9bWVHAwnlXwsW9WepfbwjY/UAwzsYfDwbDZo6RmuMhRIhAffPfSSHFha3sp6RaAecQAJrRmaO4qOSpVX8q3wk08fqqQzQSDdCXXq3xpI9B/n0NoyRXDewhgB.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1oYWlrdS01LjUtMjAyNjEwMDd8Y2xhdWRlLW9uLWF3cyJ9",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_01NzYesTQipqhd8LoG2WFN7K",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "ticket_type": "refund",
+      "reason": "Customer asks for the last payment back after forgetting to cancel."
+     },
+     "name": "sort_ticket",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_01NcpVWLNVMaEL8e3C4eN1NJ",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "question": "refund policy for forgotten cancellation and exceptions"
+     },
+     "name": "search_knowledge",
+     "type": "tool_use"
+    }
+   ],
+   "model": "anthropic/claude-haiku-5.5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "tool_use",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 2068,
+    "output_tokens": 223,
+    "output_tokens_details": {
+     "thinking_tokens": 61
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard",
+    "cost": 0.0003183,
+    "is_byok": false,
+    "cost_details": {
+     "upstream_inference_cost": 0.0003183,
+     "upstream_inference_prompt_cost": 0.0002068,
+     "upstream_inference_completions_cost": 0.0001115
+    }
+   },
+   "context_management": null,
+   "provider": "Claude Platform on AWS"
+  },
+  "latency": 1.84,
+  "request_id": "gen-1791882402-eqIS9QmHRMyMkshWNG8N"
+ },
+ {
+  "request_key": "5f2f5a625440018b",
+  "response": {
+   "id": "msg_011CfyyHJqMGEjX1B925Phnc",
+   "container": null,
+   "content": [
+    {
+     "signature": "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.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1oYWlrdS01LjUtMjAyNjEwMDd8Y2xhdWRlLW9uLWF3cyJ9",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_014ibjU46EDyvFcxUqyicxKf",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "ticket_type": "refund",
+      "decision": "needs_person",
+      "reply": "Hi Priya, I am sorry to hear you were in hospital. I cannot see your account from here, and I cannot approve an exception myself. Our refund policy allows refunds for a charge within 14 days of that charge, and one refund per member in 12 months (https://kitebridge.example/refunds). A person from our team will look at your request and reply within one working day. Kitebridge Support",
+      "sources": [
+       "https://kitebridge.example/refunds",
+       "https://kitebridge.example/review"
+      ],
+      "note_for_team": "Customer asks for exception refund of last payment after missed cancellation, citing hospital stay. I could not check the account or charge date. Policy: 14-day window, one refund per 12 months, exceptions via person review. Please check charge date and refund history and advise."
+     },
+     "name": "write_reply",
+     "type": "tool_use"
+    }
+   ],
+   "model": "anthropic/claude-haiku-5.5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "tool_use",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 2841,
+    "output_tokens": 641,
+    "output_tokens_details": {
+     "thinking_tokens": 263
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard",
+    "cost": 0.0006046,
+    "is_byok": false,
+    "cost_details": {
+     "upstream_inference_cost": 0.0006046,
+     "upstream_inference_prompt_cost": 0.0002841,
+     "upstream_inference_completions_cost": 0.0003205
+    }
+   },
+   "context_management": null,
+   "provider": "Claude Platform on AWS"
+  },
+  "latency": 4.28,
+  "request_id": "gen-1791882404-zHwwjWwrMOWiG4YK5OrM"
+ }
+]

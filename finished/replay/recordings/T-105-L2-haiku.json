@@ -1,0 +1,120 @@
+[
+ {
+  "request_key": "1af98109fdc41165",
+  "response": {
+   "id": "msg_011CfyyGwGpC57rpJUeE4TGP",
+   "container": null,
+   "content": [
+    {
+     "signature": "CAQSiwYKEAgSGAI4AUIIdGhpbmtpbmcSDJ8l+mjvfceZ1+D6KxoMdJ2bNeA2E4gX71+JIjAoAi4OMWJqu6/BzmMFUPUbQotApY5GNfFNwim+BY2bcSV1KxLcAeVdsKMDthOFtfAqqAWEKLrsNW8JipCQz3t/rPvaS2eGrwPmuRUAiEjYm+RaFMxRmWCE2ZgzM519ppvl36mqyBi1+/9tf3NEhRF+g3yZ+eVPfym3SEPOsv6Br73TSWxaciFr7GgqLrGf/iXi6XNJ1u+/Nqy5Q1FEXsNJ4sOzIDkERKFOwqhBcIhh9sVnrW3JD9Fx2RpXrC6feV1W6It7bpZQzocjEg7/ETgLWKa1D7yRbg2UijYksG++EAiQ4NBEhC4oQe9+eGuR0zA4KYVP7GuF4cPXZLhJaJJvoChn8BIkF/CfiKQPG/P4qMyRYg//+wv/7j2Gy6kuxOsE4xU+lUE+IuTqwhz+qhX9QOi6KkPE6cFuRON7SsFiFPs4b2sHPt5DnOMom0XVvFPZzVzpdIuD4CPdQv1VJVhybdsCnTrm/pw9lAjbolZz1hT8QmkVMLoEC9j7HSvF3U08DU81naLtu2lw/UDlMtUymcSdaXaoXJv2JwVBMdnjngpF8135sr6ShsayJ19jebFf1AQXG5zGEHZr/rFyrtkAsGa4jdYHOBxQrZfsjP/739Os5Ix/OLwmZ4vbDP1yH951YkW6cHw635jX6dwO2FbhMGmTt306oGSAMxXkN+k69BzPwmCb4oiNE3M92/89V1jqmpKL0jZG5NaoPpKwUQHz2kfPIuUxE62hBPUu/bVu9mhjDQHrgN0MQdJVRgQSdDoWPA4LmlYbbvgGbI/lFZzDTKfGDfoEpsDCxBgNDF06Px2dLlJbGqmgd10RQRGWly8f1jZy9LbecosJX02CzJct1nJpu9HXYYiJtYJwQQD+ZfxbMONAsTYfSdw+C1iD+FgXQQ7VHyG6YFJAu1tNz1LpHKWm+99MV74kbgyTmLhpVEU/zX2qyiaUA5+HGOJH9/MFOfR4lcF9yg5OuRgB.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1oYWlrdS01LjUtMjAyNjEwMDd8Y2xhdWRlLW9uLWF3cyJ9",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_01WaPE7boyHsU8Nkd94vA5UC",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "ticket_type": "refund",
+      "reason": "Customer asks for a refund of the last payment after forgetting to cancel, and asks for an exception."
+     },
+     "name": "sort_ticket",
+     "type": "tool_use"
+    }
+   ],
+   "model": "anthropic/claude-haiku-5.5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "tool_use",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 1920,
+    "output_tokens": 169,
+    "output_tokens_details": {
+     "thinking_tokens": 60
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard",
+    "cost": 0.0002765,
+    "is_byok": false,
+    "cost_details": {
+     "upstream_inference_cost": 0.0002765,
+     "upstream_inference_prompt_cost": 0.000192,
+     "upstream_inference_completions_cost": 8.45e-05
+    }
+   },
+   "context_management": null,
+   "provider": "Claude Platform on AWS"
+  },
+  "latency": 1.75,
+  "request_id": "gen-1791882399-qRzdL7jHCVZbGjARWodP"
+ },
+ {
+  "request_key": "27b45e4f218c20af",
+  "response": {
+   "id": "msg_011CfyyH4zAHiWxFwmK3zbRz",
+   "container": null,
+   "content": [
+    {
+     "id": "toolu_012bGw3TFU5FtjdybqK42ea6",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "ticket_type": "refund",
+      "decision": "needs_person",
+      "reply": "Hi Priya, I'm sorry to hear you were in hospital and could not use the course. I can't approve a refund myself, so a person from our team will look at your request and reply within one working day. Kitebridge Support",
+      "sources": [],
+      "note_for_team": "T-105: Refund exception request from Priya Nair (priya.nair@example.com). Forgot to cancel last month, was in hospital, did not use the course, asks for the last payment back. I have no refund policy, billing or account tools, so I could not check the account, the payment or the refund rules. Needs a person to review."
+     },
+     "name": "write_reply",
+     "type": "tool_use"
+    }
+   ],
+   "model": "anthropic/claude-haiku-5.5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "tool_use",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 2103,
+    "output_tokens": 314,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard",
+    "cost": 0.0003673,
+    "is_byok": false,
+    "cost_details": {
+     "upstream_inference_cost": 0.0003673,
+     "upstream_inference_prompt_cost": 0.0002103,
+     "upstream_inference_completions_cost": 0.000157
+    }
+   },
+   "context_management": null,
+   "provider": "Claude Platform on AWS"
+  },
+  "latency": 2.31,
+  "request_id": "gen-1791882401-iEfuXtIsRhq6wVKUZ4Dw"
+ }
+]

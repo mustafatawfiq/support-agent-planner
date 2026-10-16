@@ -1,0 +1,294 @@
+[
+ {
+  "request_key": "e4d6dd4721a64b29",
+  "response": {
+   "id": "msg_011CfyyFq5iomcM8g8EQsA6c",
+   "container": null,
+   "content": [
+    {
+     "id": "toolu_01Htv5tEuZbdfAWWJuQS7WXG",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "ticket_type": "refund",
+      "reason": "Customer asks for money back after joining last week."
+     },
+     "name": "sort_ticket",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_015buJch6xgxtC9EzEtRqPFs",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "name": "refund"
+     },
+     "name": "read_skill",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_01FLX8bVabadMy91PubrQ8NZ",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {},
+     "name": "find_customer",
+     "type": "tool_use"
+    }
+   ],
+   "model": "anthropic/claude-haiku-5.5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "tool_use",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 2709,
+    "output_tokens": 160,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard",
+    "cost": 0.0003509,
+    "is_byok": false,
+    "cost_details": {
+     "upstream_inference_cost": 0.0003509,
+     "upstream_inference_prompt_cost": 0.0002709,
+     "upstream_inference_completions_cost": 8e-05
+    }
+   },
+   "context_management": null,
+   "provider": "Claude Platform on AWS"
+  },
+  "latency": 1.57,
+  "request_id": "gen-1791882384-cxFvih5jbiuFOWGG9lFF"
+ },
+ {
+  "request_key": "1d1b998068ce6ff6",
+  "response": {
+   "id": "msg_011CfyyFxB7LZRxZN1bDmYtU",
+   "container": null,
+   "content": [
+    {
+     "id": "toolu_01K1ATwNohioZhY7uPRdwGFH",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {},
+     "name": "verify_identity",
+     "type": "tool_use"
+    }
+   ],
+   "model": "anthropic/claude-haiku-5.5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "tool_use",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 3582,
+    "output_tokens": 28,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard",
+    "cost": 0.0003722,
+    "is_byok": false,
+    "cost_details": {
+     "upstream_inference_cost": 0.0003722,
+     "upstream_inference_prompt_cost": 0.0003582,
+     "upstream_inference_completions_cost": 1.4e-05
+    }
+   },
+   "context_management": null,
+   "provider": "Claude Platform on AWS"
+  },
+  "latency": 1.23,
+  "request_id": "gen-1791882386-Dq4v9WsJlehdc61eXxN8"
+ },
+ {
+  "request_key": "a74dabc8cc05da4a",
+  "response": {
+   "id": "msg_011CfyyG3Tc2TGYcDrWVAtkd",
+   "container": null,
+   "content": [
+    {
+     "id": "toolu_01R93V9DgqRrdpQDPHCzBJ1Q",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {},
+     "name": "check_refund_eligibility",
+     "type": "tool_use"
+    }
+   ],
+   "model": "anthropic/claude-haiku-5.5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "tool_use",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 3904,
+    "output_tokens": 32,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard",
+    "cost": 0.0004064,
+    "is_byok": false,
+    "cost_details": {
+     "upstream_inference_cost": 0.0004064,
+     "upstream_inference_prompt_cost": 0.0003904,
+     "upstream_inference_completions_cost": 1.6e-05
+    }
+   },
+   "context_management": null,
+   "provider": "Claude Platform on AWS"
+  },
+  "latency": 1.19,
+  "request_id": "gen-1791882387-3uEEk58Er7CoKZk7meUh"
+ },
+ {
+  "request_key": "8f7032de7997745f",
+  "response": {
+   "id": "msg_011CfyyG8SkBxGq68XdiGkLq",
+   "container": null,
+   "content": [
+    {
+     "id": "toolu_01XKKtjFrDjCTDHuiM7ZUJJW",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {},
+     "name": "open_refund_request",
+     "type": "tool_use"
+    }
+   ],
+   "model": "anthropic/claude-haiku-5.5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "tool_use",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 4094,
+    "output_tokens": 29,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard",
+    "cost": 0.0004239,
+    "is_byok": false,
+    "cost_details": {
+     "upstream_inference_cost": 0.0004239,
+     "upstream_inference_prompt_cost": 0.0004094,
+     "upstream_inference_completions_cost": 1.45e-05
+    }
+   },
+   "context_management": null,
+   "provider": "Claude Platform on AWS"
+  },
+  "latency": 1.12,
+  "request_id": "gen-1791882388-vlGlzpMGfQNhiCvByWst"
+ },
+ {
+  "request_key": "9d13cbf8977a7279",
+  "response": {
+   "id": "msg_011CfyyGCxMfmCDZxytW4udS",
+   "container": null,
+   "content": [
+    {
+     "id": "toolu_01XWFiodQqDGY4ZALVPNmmGP",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "ticket_type": "refund",
+      "decision": "answered",
+      "reply": "Hi Nora, thanks for writing. Your last charge of 29.00 USD on 12 October 2026 is within our 14-day refund window, so we have opened refund request R-103 for 29.00 USD. A person approves it within one working day. After that, the money goes back to your card in 5 to 10 working days, and your membership ends on the day it is approved. You can read our refund policy here: https://kitebridge.example/refunds\n\nKitebridge Support",
+      "sources": [
+       "https://kitebridge.example/refunds",
+       "Refund skill: check_refund_eligibility and open_refund_request results"
+      ],
+      "note_for_team": "Refund R-103, 29.00 USD, eligible (charge 6 days ago, Rule 1, no refunds in last 12 months). Waiting for a person to approve within one working day."
+     },
+     "name": "write_reply",
+     "type": "tool_use"
+    }
+   ],
+   "model": "anthropic/claude-haiku-5.5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "tool_use",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 4219,
+    "output_tokens": 389,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard",
+    "cost": 0.0006164,
+    "is_byok": false,
+    "cost_details": {
+     "upstream_inference_cost": 0.0006164,
+     "upstream_inference_prompt_cost": 0.0004219,
+     "upstream_inference_completions_cost": 0.0001945
+    }
+   },
+   "context_management": null,
+   "provider": "Claude Platform on AWS"
+  },
+  "latency": 2.45,
+  "request_id": "gen-1791882389-wq9R375IfGXOmA1jYtPL"
+ }
+]

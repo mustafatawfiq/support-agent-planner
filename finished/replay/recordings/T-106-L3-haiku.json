@@ -1,0 +1,139 @@
+[
+ {
+  "request_key": "8b3c7039726c6a13",
+  "response": {
+   "id": "msg_011CfyyHiMiLi9e96Ba3TeHu",
+   "container": null,
+   "content": [
+    {
+     "signature": "CAQS0gYKEAgSGAI4AUIIdGhpbmtpbmcSDMZJRvVB/oHU2gkqTRoMAUHYwpLbvyM2fu3GIjBOH7PNJzR/lbNhxHQg2hDWcWUKgcRuwYuNy0ObnhKg8q/1H92RIPafqY70sCylmj0q7wXhNrn6XqiUJZTi459ef0tAZ2FgAaK1b0Co0IazSjjMfssLW99/c/h0vGCodvpZgq2UjvcqakqWzkxvMHxWEHZdbnJQNOuY2ZAQd8hDFLwkZsDvzCvbl2NEgb0yHAc2oibn68axk3XTG6hHGVAj2ArSNNozGpTeXRP2bBiqObPYaqMTsLgtsORQkVuR9sOtMisHoIxWBM78Wtcyr/cJVJ+Bw21Jp7Ex6+IUh1n3rO7Qdmv/Fb+2bAOQtak56co2o3jJhGKhmsaWSw1bPrWT138HTpnqVuFOBUl3JiZ0UE+d6WEWwaGu6UCvAm5ZtOXufQicuQRGV2vbbdSmi+g6GrOMg5FqP44058joTaiLepijPu4zqrrIpgvI9Bh5CmLA2imWimQeOcaJlqrftA6IuvDVgsqe4CxB2rQshNlWcpJWoxVsnSTuFW2appmcv4Nzn7hDT2SFD66f4HhS2DSSQQSRzkTAfpWDjO1LxRrouMoqo8aFLCAwHeHxQZiGJcPDkSsjcA4ou3RgCCYn+ziDNZehU511gGX07xEoPam12orcCY2fE9g7cXgrXQ+FSjS/lx630SaW/WuaRsnvwQf2fXOahmsZGrszg3hOC24zIwGb9TuswWqBCrCRmrMj7MmebPsaW6uMIJ51gkuEOJDP8SgR41WJACrCnd5BhUnqpa7Ojlwqg4O1fw3yB5RoOeOVgy0GqyAUssqZpvPTJIM7TSnBHgDL/SLNNOe98HtmdgnuUaanqkiYQeTIqh6bPH/C1905uq7LNk8NCicTtE0XM/05wFSr0IBolEq13ATUB1UAVyU9UgRkRKtMbj8i9Cg7EMW4bztTKSbrX5B3ZKDZX32e7q66ZdD2Xe0MhP06lQFXV0/zw/o73j1Z6oKxnDL72d9fqwTV7uhNPrszhG5mUSJWvfK2doaeWVgQG1YijW3Rt61LoAnxy7y1jNUXbwVQnu+UrueqOq21YryIco31Nup9v84PPzWXPvSWe35qzhJXGAE=.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1oYWlrdS01LjUtMjAyNjEwMDd8Y2xhdWRlLW9uLWF3cyJ9",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_015eUdnxkuest7xj1mJpA2j4",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "ticket_type": "billing",
+      "reason": "Asks for next payment date and amount, plus how to update an expiring card."
+     },
+     "name": "sort_ticket",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_01ECHC4ekUVpnXgGbXZmspSL",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "question": "how to update card on file or payment method"
+     },
+     "name": "search_knowledge",
+     "type": "tool_use"
+    }
+   ],
+   "model": "anthropic/claude-haiku-5.5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "tool_use",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 2067,
+    "output_tokens": 234,
+    "output_tokens_details": {
+     "thinking_tokens": 78
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard",
+    "cost": 0.0003237,
+    "is_byok": false,
+    "cost_details": {
+     "upstream_inference_cost": 0.0003237,
+     "upstream_inference_prompt_cost": 0.0002067,
+     "upstream_inference_completions_cost": 0.000117
+    }
+   },
+   "context_management": null,
+   "provider": "Claude Platform on AWS"
+  },
+  "latency": 1.95,
+  "request_id": "gen-1791882410-wKCO9yhrHTdRr621Q2Tz"
+ },
+ {
+  "request_key": "11eca6b0eb0cc0f7",
+  "response": {
+   "id": "msg_011CfyyHrbJpgKWxbRwSNUFK",
+   "container": null,
+   "content": [
+    {
+     "signature": "CAQS2QgKEAgSGAI4AUIIdGhpbmtpbmcSDCW0BgGyYzFFC/CGABoMTp16YGHyk24JstX0IjAkJRzvkjrIp4ykLSbJI2v9CnWV+z+rhENPrxuKWwEJNLe9P31qryhlzlnUK90ejt0q9gdeNjG+MHn2B+evPV8w0a2mvthKqHPwHdY2FAY186qDfouO2xmjegD7GTPxcpvB3YLfp4FGozhbpOdto2U6DB0F1fsIqhylkTXTfye6tft3BO2mpHwFN59nbV1pd0iLrCMqBWa0vYfoFL2a+5zYUlbZy3/H+IvT8N0DDUm0XWNBgm2qFXeV7CuoPf8W5lKrZcBZpGmkEWwXRRSse4HiFjR2HyhBi3wTj3PeJm5AkoLIosFTK4QOnWQAHs7hi+YTegy0Wrxt3/z7SAOMjrKKhbL+AYAAYSQVXbf7WsMTIlBGEm0b2VrUWRnVdqzpjsIWhY3CtRgqo3iwB5L/NlEHQM8qDLlTQDXVtKJSK7C+0vF8VThZXnMEQTbcBfAQSfSNd6QAgo+GqlPHY1wL75DsOlmLBPUgbBaxtoLgIDDVC1algo1C6HPODUjQfBXcB3omnnT4tQwAVpLlGJWSPwbtIdFDFsuVXkJe7m2Sscd//1B2Xoq7zN75FzZnIHwVRWQ7V/kVAULywoyucQTC0TfrbZbl6WkJrmFAnMsedY0a/LBxGRmZmiFYBlU1ndjm2DKnWeyLRy1IWLQn9E+q84UL8htFHKRQyFE0m3Lx7uVOTe2YvzDt3EqYNxU/r8nokS5bmbs4wC1lSY2D7Adv1UGOCdarG+sFwo5SSNfQ4v0/8kWd500CZ+6k5faWjErqGkoFnXnPiLZVKNquPW2ACUGxJiXarCtjdSaf7RDkCTLz71wb9AoF7jmzFJw4VdIYzkBpgZgXPLRlhXRtY4u7m1t8oCGdSg71uc/ApbpnjIuh7LYvyuxU6UkqRmDaLSzkG6P+aTVfvQ/REhSdUOaHYrsZIfqSQH4zc2B8DX1HLhV67nN/JNu2NkOzCIIdC9OjLCxHfIN8jsIBEB6u8eMJNhOdEK2iB78Jal2UN/KyAKt5S1yOnZ16TdYxZGC0mTIIBtIuoyCd8Dwtb1vcwiJ4iYXXh2xx47HEogzDB4ryWIx8VUb9BMdVmScYOmyCZOKhs9kEIk/zxjQANJEss/LQKUy4oFEhDDd259rxTTDXkSvWdghC/VMceNLyNeaMYbVKCJ8634VAzYQnGamzgcBhQG3azSG+v7NaDN2yMoSV0o/R1QQzioFC7Z4ESj+AF8zWrPgsOWHA6yZ9X2hBzLM50MvpAS4ypJCqmrLU6cpgfoc9bUKjfW7PcYfe0sB/9LHczwewc1qmKiwVHnlXKwGL2/9J89JCI18HuR2yNymfEotzHyYQAh0DUpDeFXLmaps1akp6rRd0HP+KBB0i+mXIeLDDOhVm1JTe5L8DYbtM2CQiGqfmkoZpCppOy2cZCyJBldP4e9/OgvIKPYwYAQ==.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1oYWlrdS01LjUtMjAyNjEwMDd8Y2xhdWRlLW9uLWF3cyJ9",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_01C7jYpdN3Fusj3Mjm8ts1Ug",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "ticket_type": "billing",
+      "decision": "needs_person",
+      "reply": "Hi Aisha, thanks for writing. I can't see your account, so a person from our team will reply within one working day with your next payment date and amount. You can also see both under Account, then Billing. To change your card: log in, open Account, then Billing, click \"Payment method\", then \"Replace card\", enter the new card and click Save. Please do this at least one day before your next payment date. Steps are on our help page: https://kitebridge.example/help/change-card\n\nKitebridge Support",
+      "sources": [
+       "https://kitebridge.example/help/change-card",
+       "https://kitebridge.example/help/payments"
+      ],
+      "note_for_team": "Customer asks her next payment date and amount, which needs account access (agent cannot see accounts). Card update steps sent from the help file (last checked 2026-10-01). Please confirm her next payment date before she changes the card."
+     },
+     "name": "write_reply",
+     "type": "tool_use"
+    }
+   ],
+   "model": "anthropic/claude-haiku-5.5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "tool_use",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 3072,
+    "output_tokens": 518,
+    "output_tokens_details": {
+     "thinking_tokens": 121
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard",
+    "cost": 0.0005662,
+    "is_byok": false,
+    "cost_details": {
+     "upstream_inference_cost": 0.0005662,
+     "upstream_inference_prompt_cost": 0.0003072,
+     "upstream_inference_completions_cost": 0.000259
+    }
+   },
+   "context_management": null,
+   "provider": "Claude Platform on AWS"
+  },
+  "latency": 3.1,
+  "request_id": "gen-1791882412-YLpTURbyCZdhlZ2v73Xb"
+ }
+]

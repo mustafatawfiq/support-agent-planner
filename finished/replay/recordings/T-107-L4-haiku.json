@@ -1,0 +1,144 @@
+[
+ {
+  "request_key": "a81d88d6552fdb50",
+  "response": {
+   "id": "msg_011CfyyJeM9BbvdJDgHLKhFE",
+   "container": null,
+   "content": [
+    {
+     "id": "toolu_01YAA5kBqcqQQarpPxZuB1AJ",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "ticket_type": "upsell",
+      "reason": "Customer asks what Pro adds over Starter and how switching works."
+     },
+     "name": "sort_ticket",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_01RGyYHQroTjNApwazPjnYvY",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {},
+     "name": "find_customer",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_01UNxRfVmedFNZ5TDdr5jEbF",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "question": "Starter vs Pro plan differences and how to switch plans"
+     },
+     "name": "search_knowledge",
+     "type": "tool_use"
+    }
+   ],
+   "model": "anthropic/claude-haiku-5.5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "tool_use",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 2241,
+    "output_tokens": 187,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard",
+    "cost": 0.0003176,
+    "is_byok": false,
+    "cost_details": {
+     "upstream_inference_cost": 0.0003176,
+     "upstream_inference_prompt_cost": 0.0002241,
+     "upstream_inference_completions_cost": 9.35e-05
+    }
+   },
+   "context_management": null,
+   "provider": "Claude Platform on AWS"
+  },
+  "latency": 1.67,
+  "request_id": "gen-1791882422-MmslZrGnzvQnjLD13Tg2"
+ },
+ {
+  "request_key": "e1f558ad1ecf2c39",
+  "response": {
+   "id": "msg_011CfyyJmvJbZBSa29xK5xxv",
+   "container": null,
+   "content": [
+    {
+     "signature": "CAQS4QYKEAgSGAI4AUIIdGhpbmtpbmcSDKk8pixUyrqw5OWPHBoM4/twCdkY0WHv4+PkIjD5B9BNBJLpsn/t7wLtiWp6T4Fq+VF59flTvPfp6MWZUftnNK37yX+N797o8rztZhEq/gVh37sNqDnakjYlaPfGNwDQltMWYpbQHiWDa83XflDTHJtN4AAAwImm5gZDMaVVmbBerinWim9i7qlELAyL+8eGGN4N1hJ+mI8/b4qf1WVGv1qxL4ZmMKNgq1D546a2/PCcUscwqib6ANhsdp93X5ZTMVJX3i/PsyQ1Y0yJEM6INl+g99a5VD0rY38FoasnLSX7RnBxa2tGik31nV/N+/hDTeVGDfGNfuKO3RDxIOwUXgOyECgCA7HAOcpr5G9kgjZOoc6BjGmxngvF0EWolWw+x1xDOur8AkbopxodGb66NfbxMf2FBVncFZOy4pCPEm6cx770DkQXQKgCfQT3IZiZnnleHxn2TuwcIbs0ZwrJfNKTGV5qFyXrXhY9HNHi5t6UJoZvr7UomEl3xIZ2zUQ4eeqALZpIxHdRZnMcNMHpZ7p1mPVjpUNWXfXE6w2cpdld1e3WYibZVKGzg70l/BtcM8s1CrfGpqtCfpGbOVmjNAFlTH61KKWBJJ9X8xSBcw/S0l3WKLjSxMTZAAWEl+nIhGx4+fdE20UDHmEkr7iBcjkKaf9jBhtZvcAm5cXgfFnQab1XmO1tNpcfqV4xLbcAmZ1k0G/SKui25yjfk6JCIwZsHMcZFGuTc+AL8Nt/Afh4zsY3R7iu2s0XDmff1b+HU6YPskjOF+r9NA1gZHxBYC/6cNoedquEoDkqT58/pP2S6/HSOwkXH+GsKyk+wXGyBSh5BiWYM7ageIjyrq1qeAWpxYo30GABiiauYqRTWdXFFurL7eDMJD0OCK6mLObVXGi46ZuXZErbr98IgnXw1WLH+jNyddTicschJQvp204kpY2iz8c37e1/5rQ8IS5UJWfHkc4ukXxpqAk/9UzmH3s2E3rxpL2ljq5+d4xVAyurr+3PZbfgbeq7lIiEZSWooEbszrtru84zSaCCDYfjpXbamdW3ik++qZBhYTDVrZeon33T2KotJNt13PXoTQupSOK31TuAgR8+NwysVDm20QTwFm+pESBCj7P0H7zYGAE=.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1oYWlrdS01LjUtMjAyNjEwMDd8Y2xhdWRlLW9uLWF3cyJ9",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_01Tv6uyid7ncWcbJhGBMrBgh",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "ticket_type": "upsell",
+      "decision": "answered",
+      "reply": "Hi Diego, thanks for asking. Pro Monthly is 79 US dollars a month. It includes everything in Starter, plus a weekly group coaching call, the template library, and one project review a month. Starter gives you the course library, member forum and one live Q&A call a month. To switch, log in, open Account, then Plan, and click \"Switch to Pro\". The page shows the exact amount before you pay. When you move up, you pay only the difference for the days left in your current period, and your next payment is the new price. You can read more at https://kitebridge.example/help/switch and https://kitebridge.example/plans.\n\nKitebridge Support",
+      "sources": [
+       "https://kitebridge.example/help/switch",
+       "https://kitebridge.example/plans",
+       "https://kitebridge.example/help/coaching-call"
+      ],
+      "note_for_team": "Upsell question only; no account action taken. Customer is active on Starter Monthly. Did not share the internal note about past team pricing enquiry. The exact switch amount is shown on the site, so I did not quote one."
+     },
+     "name": "write_reply",
+     "type": "tool_use"
+    }
+   ],
+   "model": "anthropic/claude-haiku-5.5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "tool_use",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 3566,
+    "output_tokens": 536,
+    "output_tokens_details": {
+     "thinking_tokens": 71
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard",
+    "cost": 0.0006246,
+    "is_byok": false,
+    "cost_details": {
+     "upstream_inference_cost": 0.0006246,
+     "upstream_inference_prompt_cost": 0.0003566,
+     "upstream_inference_completions_cost": 0.000268
+    }
+   },
+   "context_management": null,
+   "provider": "Claude Platform on AWS"
+  },
+  "latency": 3.06,
+  "request_id": "gen-1791882424-CCFQ8zNAmUYkdEdl7wh1"
+ }
+]

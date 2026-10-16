@@ -1,0 +1,134 @@
+[
+ {
+  "request_key": "60ceb8ef9776c800",
+  "response": {
+   "id": "msg_011CfyyFFXcURfaEuZPCq74m",
+   "container": null,
+   "content": [
+    {
+     "id": "toolu_011PPvuQV8KPPe2feMt9hxEA",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "ticket_type": "question",
+      "reason": "Customer asks where to find a past coaching call recording, a how-to question."
+     },
+     "name": "sort_ticket",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_01VHHMSvL3enhft2Tcsnvmpv",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "question": "where to find coaching call recordings"
+     },
+     "name": "search_knowledge",
+     "type": "tool_use"
+    }
+   ],
+   "model": "anthropic/claude-haiku-5.5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "tool_use",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 2241,
+    "output_tokens": 154,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard",
+    "cost": 0.0003011,
+    "is_byok": false,
+    "cost_details": {
+     "upstream_inference_cost": 0.0003011,
+     "upstream_inference_prompt_cost": 0.0002241,
+     "upstream_inference_completions_cost": 7.7e-05
+    }
+   },
+   "context_management": null,
+   "provider": "Claude Platform on AWS"
+  },
+  "latency": 1.72,
+  "request_id": "gen-1791882376-8RyKUND9M6qCW9vcAFjj"
+ },
+ {
+  "request_key": "f9642e8340fe9b47",
+  "response": {
+   "id": "msg_011CfyyFPiyog59nd8qSYJmj",
+   "container": null,
+   "content": [
+    {
+     "signature": "CAQS0ggKEAgSGAI4AUIIdGhpbmtpbmcSDKeLw88pFNasTpdjkBoMb2Cd5CqhRL+0a7XAIjD2nC7l3dcnvtyuVIuxbpfUqvxFt9RW/+4flM1dOYnz692K5TdT6c0N/oBQQMp4xQEq7weSB1bELnHnKUIef6JiPF541jQM1tnCDUuaoEAMa5o7QLeJaVBEQ0Xreb+0s0z+UYPpfahFT6a7/iFaV8TDhnz6h7smUKWrYd5w8SMV3/EEB63PpABgRlBXFkSqTQhWdNAzmijTTgLTksZsAqpEXYevf1ijcd4PoK/c8MRpBAcnusAi3jmupJq+wQR6iWYQH/zBouZaVWpe60axOULDNCS6Zj8dVmLFf2dtsUj4a6UmxywtXYidNjA685N8xO0EKaW/oNB47LouCXHra4jsknMUQmLtDd7MGQKJKgFFSaTkBrjFsOIAFs7cFwZGyK6Q+w4l45Ijje/LvWlrgzhLz9MNvU5vBsKzAcBk8NN1W+Dhj6yatusRf8acop06k3r+R485rxRce5tPzREilPD5Z4ywVrvDhMqmRndWE0l2deSiie5Dz1OE1Y3kjCXV1/0T97X4lqA3HIQ8ZR5O/ie8oM16hZFr/yGLlrHw/qALv1j/Cv/Np0TnQx4YoT44x3EyxMumFHZWnkAWbwEJCgH6kOfB70ezZXlW53modFSSBxoaLT3rw4yvWFk6Ppb7GncRg2onxIquBsjIOo8LYN5HQJMA+TWOtMwTWxpF7jCyyEe8GUFxKdD9piFj6LZMCPptv28hqZDEiDzb5YxMsaxwOIOF0JQlNGMjvboLQafPAnD4+eSFSS/lDXreuNvDUVWniLgFk3DlXW+Ijq8dkQSmu3xBZ352sPxPXYZqIGPvPSqDMKbHi0WxCKZ7tjW15+227GnmVJJBP7mBVgJYkSVWGGqUsdGgXKu1GdqNg6NlEnqCYVyIXEXfIT01t5Xn22OTu3+D9vLu4R1V7IcKFYg/jzwqhDhUKSqvxjab7hdB5RL1uw9L5AltWkHQB3yce6dFVTc9/yYNYzrNgP7n4iMGMhrYA0h5QyG/UUjCrPev/lNHCqsKLaFtKp8ShfJWuOtB1OY5LVLO8IbjUEaSA70MWLOtE4f85+1JqFAQr8farLK4bCtsQeRAOCLFPl1TuvL67v3dBhqzVU6GWAxt2FbmZ4OVCuLxCtnY+F/52Zm8eweCfdLQ8xbFSROecpqwj6URlYDjpDIkB8cfEU6lQRFj92MXiPN8mO7wwTyEV++k87/dGc3AkpmG8KcbjGs4b1Qp4db906Hq+y5iEsYhEq2HtV+J79YWR9QohbF04d4tIXKhq4+Xl9uU0cEyG4qfBIzoADC60tqvnrsWcl8iOrXH0AheZN1D+gpz6dMsYcsjv2Z8dywEGOAJnNMuydsqpTJBzmZ/mDCFPQ3UMOGuRIcxxBX0lxhHrrKtObvPpFh4ic/jTtjFV+d7FDFdi79JNEWxWBgB.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1oYWlrdS01LjUtMjAyNjEwMDd8Y2xhdWRlLW9uLWF3cyJ9",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_01Tz7ATic9w9tmhYsioXnpqf",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "ticket_type": "question",
+      "decision": "answered",
+      "reply": "Hi Lena, you can find the recording in the members area under Calls. Recordings are posted within 24 hours of the call. This works for Pro plan members, since the weekly coaching call is part of Pro. Full steps are on our help page: https://kitebridge.example/help/coaching-call\n\nKitebridge Support",
+      "sources": [
+       "https://kitebridge.example/help/coaching-call",
+       "https://kitebridge.example/login"
+      ],
+      "note_for_team": "Answered from the coaching call help page. I did not look up Lena's account, so I did not confirm her plan. If she is on Starter, she will not have the weekly call recording."
+     },
+     "name": "write_reply",
+     "type": "tool_use"
+    }
+   ],
+   "model": "anthropic/claude-haiku-5.5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "tool_use",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 3335,
+    "output_tokens": 479,
+    "output_tokens_details": {
+     "thinking_tokens": 149
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard",
+    "cost": 0.000573,
+    "is_byok": false,
+    "cost_details": {
+     "upstream_inference_cost": 0.000573,
+     "upstream_inference_prompt_cost": 0.0003335,
+     "upstream_inference_completions_cost": 0.0002395
+    }
+   },
+   "context_management": null,
+   "provider": "Claude Platform on AWS"
+  },
+  "latency": 3.1,
+  "request_id": "gen-1791882378-7OmaAh97EPmTpqesIsLc"
+ }
+]

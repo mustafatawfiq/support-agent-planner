@@ -1,0 +1,139 @@
+[
+ {
+  "request_key": "f0588b003422c08a",
+  "response": {
+   "id": "msg_011CfyyLZncC2AyEGzRgyqF6",
+   "container": null,
+   "content": [
+    {
+     "signature": "CAQS1QgKEAgSGAI4AUIIdGhpbmtpbmcSDAyHAIqt1fTWcGVXuxoMYTk/+tdd8h0EfGKlIjDHybT+fH+uVcQXBMvoPxWQZapQT5uT3WdVR4r9K2rV5D819EGeR+IGq10ckJhHSyoq8gdXBqTmLpdMEPTwDNZfsm23nVuEo3+4O5ht/GBEtCh7GXqoh3ARogSHO3o/BFRjw5MZ5qSwIvMp0YDzzZgmLnCrD6SnedaDNlWn5WUraCxeAdpf9ErC29HLBXZj729B/Tb3mMz55so+DrjjE4VyX1qIg03CzT8+hv5FZta7VTDvShARnlVE8oQhMSRoCAOl6I5m0J05yYg/5z8L2TB8tmkA1dOBLz+t+FEpYhVoTY7XAADcmizi1h2nLrhl+AVko8bP391Ubr+K4zFgQE1f5aOBiO9FPkuL+PhnZyjaFRR3XOn2RBYv2bgoMkSKGCzGY1V8ixR8MmXavabQ1f4TWoEVLmn7v9iH5ZVJgyq81O5zYJfs2gJaksbxI1ahoSOgotfjP2s6t6gXvpfoMu7e7t4JJGMg6MHZKwAccRfdgFzy4qRyMZCLKK0lWfhVvhXnBwTx2VygO21kwkz5b+mdl/qV02kOwSVU/lWJztUA1JBMjHi/6GZihgL2XG/fNEaCj6Jl2uoZFmLbHRXjFoNjvZocVUlHoXPyCD2AvVCV77cJMQDk8qwVkhL9PiSAunL2U27QcgZfPm04IdudX8w3slIFrdHtdC4CRtbbRWKiob7QY64CpjdalTLC4NmjMgZ7uRCEzdloMLS3HcuvBBcVVT74mmEf5zFfWkVip2LBCFA998iX+AtAFOluG+22d+qqBkykQfz6zJFyJozee/CSW9tJ79z+qZNkAcZT7VF4MN74DGN0XJVsPjm9m29Kl4jfNhvUr9QBE2I8nDelHTMV6TGmr/UmfaoiyB4Lspd7g85DF4+t3am8YDFz8eYPlOuLc+z0dnAyzoIlRXWcRnh8nOQdOqLD7RaZuDefUGKXKkXNPj8i5MPwkAunT1mBRxnwJIiXxBn4CGp24ppbes9RPD3KA+k0seJeHzk+oIFPP4sJLC9m6HmiM7f1da6eASFs2bgE2iWnm0YeM25Hg4t57XRdJBTfHyqiLa3F/x+gEwDzoEncrftGpBTQ//FRin17PkfikUzyBjtBK401BA/itQE+c6LVqfZRB+/+qcLNPOcz8aiF78DlhdqgtiDmiwoi/+ACSr6WHd5lBMRvmuViedVHhfMDNZ1gd689V3qXGArGABUQunutRfsZLFKm8C94qwbPItMhkWDCD1Gk+Z/G4Vcj2bHqSH4haBa5NzBnCm3Ug7Wzoj2ilaOqAoGZ8KyK/LH9Q5e07ytS8TwSc0EcrnExgBRpHXC6UD403yZU3C0/IxmFfYmUWqipFkH5TOj7lHmcN78i8/bQ52lnpxUVOY7MbzhzBbK87sENO3DeuTwT9RqhIX7oyRC+dby9oHwbssgZ4hgB.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1oYWlrdS01LjUtMjAyNjEwMDd8Y2xhdWRlLW9uLWF3cyJ9",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_01Qo7cBPqYQj2xZsXzYQVS2C",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "ticket_type": "refund",
+      "reason": "Customer asks for a refund of their last payment."
+     },
+     "name": "sort_ticket",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_01Ma66UXBma9UgAzDcgrBXCR",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "question": "refund policy request how to ask for refund"
+     },
+     "name": "search_knowledge",
+     "type": "tool_use"
+    }
+   ],
+   "model": "anthropic/claude-haiku-5.5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "tool_use",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 2072,
+    "output_tokens": 310,
+    "output_tokens_details": {
+     "thinking_tokens": 160
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard",
+    "cost": 0.0003622,
+    "is_byok": false,
+    "cost_details": {
+     "upstream_inference_cost": 0.0003622,
+     "upstream_inference_prompt_cost": 0.0002072,
+     "upstream_inference_completions_cost": 0.000155
+    }
+   },
+   "context_management": null,
+   "provider": "Claude Platform on AWS"
+  },
+  "latency": 2.5,
+  "request_id": "gen-1791882448-skOK0hN3YYZjEvgop3gO"
+ },
+ {
+  "request_key": "30fad192c17394d3",
+  "response": {
+   "id": "msg_011CfyyLkRZZYV9wrMMM3tv3",
+   "container": null,
+   "content": [
+    {
+     "signature": "CAQS/gYKEAgSGAI4AUIIdGhpbmtpbmcSDIl2hEXDkJTE9P0lFRoMev7mbOVkiebckwGGIjDyV0xJQ1WBPl5JNnsc7OAcgS+bZRpLw++/Qlck+zEVhEfkIw7k5QZyrXyvpNPNiPYqmwaET6SfR/N38cM2V/gHspJaMmU+SMK0zfu0zFJgOmLM22bqaAAmiferOaHLoVH+rz65NHlknr3vLMC7EYCyImDsw571im5cvdTVoKINYXYnD/UeyrqDORAEVutk11OEk4ZE6QWdKXn3WBOAZUFw6VgRzXKawg96XdtVr9mplr+x/M9WxdBYosfTrtkuILQOgrAvetwsv7TZEHpGfvAjRwZbJXv/lzWe6FlpZGrKj7aLwnXxz/LN7u/gA5quZIDvb8EI6hkA0CW62rAeZHuVFSE5j+W5J9Z/WWK19E3+oxHMkOl+4PhF0rIoH8vl634CxFDU46MUjRLU63FoLxWDLuVaEFbHEs2vorLzjhzVBsBDIxk5DL1ah3E9icG1mo6M4AfnKtTPRDMnRq32zbbVHrBIifBNTDoSj8vwnQq8RW/4DfzrnClf1oq4BuKXEOfFBKKw9UkHA1fPGkDS0mhOmPaEjgPuDL/dqhdycpIksehs23xdeYa1hkuzVYMaDV4ikMQlnBizbMshh4TXnb3C5M/xsVC6kF4c5AEuLM2JwHWlxPfc1qHMGEByaJUlIJjqz8Eb7YeJ6AvgFhDkloP6mFKSR2G5QcRklkzkVCl0b/XUjz8+UuOulFWRJnt3LOw5i/nv8vr6Un52WbkGorPiwZgFf9Deyzb4rhCBF7IFgY6FEaAf68a4IaNJ2yTYI866wGu24ttCk1iO3K9w3lH1Hd7q6cSA8UBsrtMGETKvYw7SUt/+/3DUs1OBTlkCnwDwvUYUNgTb5RtPHf5/dYef3vFsRQ/5VKNNljXHOUkwEE6ntLpa5RNjLrhFJpGb8ckg9XOUiQ+6CXNFxHwQtLxezeD2f3z9N6+q6JwotLGYFZkNHrQ3An+bYYocOlkj1cAVvRiXxcjk+OlT7XGnFrGAq5Spb1ZRLPOOqMJLsLrGOMKUq1hJGermV+bNSRfzrYu5PKs3rdYunW4GUhuq9M3xGuXl89NLzPPCe9txF4hI8WAa1IhDlfaQ2BWBLf0Iu6Hiu8+G4ILQegg6iSfOvkZewZtB94Y0gdE4yQGK5kQYAQ==.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1oYWlrdS01LjUtMjAyNjEwMDd8Y2xhdWRlLW9uLWF3cyJ9",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_01Svn41YcCTX4nTSnwDnVsYZ",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "ticket_type": "refund",
+      "decision": "needs_person",
+      "reply": "Hi Sam, thanks for writing to Kitebridge Support. I can only look at refund requests from the email address on the account. This message came from a different address, so please write to us again from the email you used to pay. Our refund rules are on the Refund policy page: https://kitebridge.example/refunds. Kitebridge Support",
+      "sources": [
+       "https://kitebridge.example/refunds",
+       "policies/refund-policy.md"
+      ],
+      "note_for_team": "Refund request from sam.ortiz.work@example.net, which differs from the account email the sender named (sam.ortiz@example.com). Not verified. Could not check the account or the charge date, so the 14-day window is unknown. Customer asked to write again from the account email. Do not act on the account until the sender is verified."
+     },
+     "name": "write_reply",
+     "type": "tool_use"
+    }
+   ],
+   "model": "anthropic/claude-haiku-5.5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "tool_use",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 3174,
+    "output_tokens": 432,
+    "output_tokens_details": {
+     "thinking_tokens": 58
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard",
+    "cost": 0.0005334,
+    "is_byok": false,
+    "cost_details": {
+     "upstream_inference_cost": 0.0005334,
+     "upstream_inference_prompt_cost": 0.0003174,
+     "upstream_inference_completions_cost": 0.000216
+    }
+   },
+   "context_management": null,
+   "provider": "Claude Platform on AWS"
+  },
+  "latency": 2.74,
+  "request_id": "gen-1791882451-QqlO1TuVapOMuwsFqRY0"
+ }
+]

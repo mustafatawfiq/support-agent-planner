@@ -1,0 +1,77 @@
+[
+ {
+  "request_key": "234dfc8ebe130093",
+  "response": {
+   "id": "msg_011CfyyF4Cj5LwCRQfK2ScfJ",
+   "container": null,
+   "content": [
+    {
+     "signature": "CAQS9gUKEAgSGAI4AUIIdGhpbmtpbmcSDPBnPgmZItih/WqEsxoMqoAFKlmPRleD22SJIjDf8or4B6ABm269i7bvLsx/6n/EzxqIouoPKcfQv4FGqdLC04jWYK51xDuSiLusxWgqkwXi7eTlifRlwdLGFe+dqsGr+79mzFbhQxr+CP87LX5R+qv3n9+S50xUcSz+y8q3jz6d4hvx3ynvOa5wxhRTvxNstIQij4JvAKDWNkx9zpNYHZxBWHi7eoSC3XWwbJfzNisbheZWWhwQXaNQgRcYwDgKT6TI0N9v1fz1Cjgmbjn+/qMkb2Jn2Bu+ISPOKv+UboT+JeRdJ8snL8/ltSPcukjcpyO3nc6OL18h3tWuh84Qa9RblywheBn92w3tW75DYEsywBB0DlWWX88Dbi1OZjEhVQde3rZMG8M+6i56ckPfagyXtAONeVNm8n2U8yK5ewIXPm78jvPYb8Uojo9n9bjGkpE/rBfdaZKMg2FeTb9r7I6Rea/YU6WyiwCEMXOP/NOj2Mijn2YR6wDRvp2ndFbGzYUy7GbNIrardfYfPuiy8lz1KXghvuF6P2xWRZoXd4bXLi/E83zTb34rL8Ll7myI01rAfdt5Vr22H+Oa+g/gS5T5f7I5eKIF8Vl0ZJs/unHl4d1frnhS6sZIXHaVncObO+uWk7Oo6BYSMGSHW3IA0I+SIxnEYUib4eyMZZCXbjd6hRbWAHRo1eVwU3d6yd3KAcPzAUF+2iA92OexzQwNx7Y+C99rOHRa0zpgAO8QyhTvdssKiaDMZibzy9G6F4Em8+QddrwV35V0tjqI/WASEfeCxF/JF2+Lf/RUp0b0muMmERObBFAplyPr5LjYLSz8al36rhz6Vj1QG9C/7uyKVEe1SbPnBr5nxuLLqU96xqBHMQd0xj8AVGwO6Y9lWt7SrVXv6xW2AJmvSbmt4AewEFf2kgBQ1CdbM4daBimF3Tf9bxxeDCDJjQUplwduORdgX6B+55K6lAhm5Rjwtgq1IdlnihgB.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1oYWlrdS01LjUtMjAyNjEwMDd8Y2xhdWRlLW9uLWF3cyJ9",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_01QdYgnaGpn25GDsJNTgUyh5",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "ticket_type": "question",
+      "reason": "Customer asks where to find a past coaching call recording, a how-to question."
+     },
+     "name": "sort_ticket",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_01QmmaQh3PoKznY9KJBTbsHV",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "ticket_type": "question",
+      "decision": "needs_person",
+      "reply": "Hi Lena, thanks for writing in. I do not have the help page for finding call recordings with me right now, so I cannot give you the exact steps. A person from our team will reply within one working day.",
+      "sources": [],
+      "note_for_team": "Question on where to find the recording of last week's coaching call. L2 agent has no help files or customer data, so the steps could not be checked. Please send Lena the recording location from the current help files."
+     },
+     "name": "write_reply",
+     "type": "tool_use"
+    }
+   ],
+   "model": "anthropic/claude-haiku-5.5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "tool_use",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 1909,
+    "output_tokens": 409,
+    "output_tokens_details": {
+     "thinking_tokens": 50
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard",
+    "cost": 0.0003954,
+    "is_byok": false,
+    "cost_details": {
+     "upstream_inference_cost": 0.0003954,
+     "upstream_inference_prompt_cost": 0.0001909,
+     "upstream_inference_completions_cost": 0.0002045
+    }
+   },
+   "context_management": null,
+   "provider": "Claude Platform on AWS"
+  },
+  "latency": 2.66,
+  "request_id": "gen-1791882374-p06wqMSHI2btqv4AAyNN"
+ }
+]

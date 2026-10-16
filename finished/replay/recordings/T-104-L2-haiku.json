@@ -1,0 +1,115 @@
+[
+ {
+  "request_key": "a27e4ea0a4c2a690",
+  "response": {
+   "id": "msg_011CfyyGJzzngxT8mxi78tvW",
+   "container": null,
+   "content": [
+    {
+     "id": "toolu_01L6sRywFDougjMYzkvd9waY",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "ticket_type": "refund",
+      "reason": "Customer asks for a refund of a yearly plan fee."
+     },
+     "name": "sort_ticket",
+     "type": "tool_use"
+    }
+   ],
+   "model": "anthropic/claude-haiku-5.5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "tool_use",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 1919,
+    "output_tokens": 95,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard",
+    "cost": 0.0002394,
+    "is_byok": false,
+    "cost_details": {
+     "upstream_inference_cost": 0.0002394,
+     "upstream_inference_prompt_cost": 0.0001919,
+     "upstream_inference_completions_cost": 4.75e-05
+    }
+   },
+   "context_management": null,
+   "provider": "Claude Platform on AWS"
+  },
+  "latency": 1.45,
+  "request_id": "gen-1791882391-NfkYjZIuReGaYe1QTvqw"
+ },
+ {
+  "request_key": "066fa31dd9dc915f",
+  "response": {
+   "id": "msg_011CfyyGRUvX5YubtWZQgbZD",
+   "container": null,
+   "content": [
+    {
+     "id": "toolu_01BhM4vQJBVSLNaVUG4Z6Kzn",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "ticket_type": "refund",
+      "decision": "needs_person",
+      "reply": "Hi Marcus, thank you for writing to us. I cannot check refunds or your account from here, so a person from our team will reply to you within one working day. Kitebridge Support",
+      "sources": [],
+      "note_for_team": "Refund request for yearly plan paid end of August 2026, customer says little use. No help files, customer data or refund tools available to the L2 agent, so I could not check the account, payment date or refund policy. Please review and reply within one working day."
+     },
+     "name": "write_reply",
+     "type": "tool_use"
+    }
+   ],
+   "model": "anthropic/claude-haiku-5.5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "tool_use",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 2028,
+    "output_tokens": 275,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard",
+    "cost": 0.0003403,
+    "is_byok": false,
+    "cost_details": {
+     "upstream_inference_cost": 0.0003403,
+     "upstream_inference_prompt_cost": 0.0002028,
+     "upstream_inference_completions_cost": 0.0001375
+    }
+   },
+   "context_management": null,
+   "provider": "Claude Platform on AWS"
+  },
+  "latency": 2.03,
+  "request_id": "gen-1791882392-UuNMRkZXHlFla3jyws9v"
+ }
+]

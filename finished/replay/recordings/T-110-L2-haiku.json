@@ -1,0 +1,120 @@
+[
+ {
+  "request_key": "1f9b6f28e152b5af",
+  "response": {
+   "id": "msg_011CfyyLRDukFd4K7YgJNFMH",
+   "container": null,
+   "content": [
+    {
+     "id": "toolu_012d6TrhxtKJbmDWQuoDUdeE",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "ticket_type": "refund",
+      "reason": "Customer asks for a refund of their last payment."
+     },
+     "name": "sort_ticket",
+     "type": "tool_use"
+    }
+   ],
+   "model": "anthropic/claude-haiku-5.5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "tool_use",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 1924,
+    "output_tokens": 91,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard",
+    "cost": 0.0002379,
+    "is_byok": false,
+    "cost_details": {
+     "upstream_inference_cost": 0.0002379,
+     "upstream_inference_prompt_cost": 0.0001924,
+     "upstream_inference_completions_cost": 4.55e-05
+    }
+   },
+   "context_management": null,
+   "provider": "Claude Platform on AWS"
+  },
+  "latency": 1.5,
+  "request_id": "gen-1791882446-2aSr3jzk4zYVVu7U6LNf"
+ },
+ {
+  "request_key": "3b16ad9840551906",
+  "response": {
+   "id": "msg_011CfyyLZ4wbh9SejCYdwXKA",
+   "container": null,
+   "content": [
+    {
+     "signature": "CAQSlQsKEAgSGAI4AUIIdGhpbmtpbmcSDFf4ZnqDjQvDf4eMshoMM0EtGcQuFdynPNwfIjCwy70Q2PCmUFqFHLZ87ZvcBkEsem6NAyt8ByExV6ttvUjF7IZY4yC9JjUsUgEgOjcqsgrBJ5CIJ9m6Kej1EjHspjQ0CSQU1aOv5Mg1rED+F1seDnyzJeBJnEtPQc5DdZb2dHI9gJbXlK09StLZRL0o9TopSr0//3X57IVeZeVBAcoPcTcDHG651DZmB8XZI8fPSstIfD+9HkMX3OU6z/RPF8+K2iZ2P1gzjzyA8V/m3nF6pja2rpjqQzrKU3rkzbvZAdD4qO6CSLZsPvxFZMcF3EeXao9P5neUKgJi4u9WCBq/RVgy9sIAkeBPUjnQhydc1nY9TBP3j0fdAfikm6vueG8ryJD5EU1XeGLaPQ8LtjFz1gQ/q1i6uvrlXUqgrcMNXATAxpLNlsjHlgzSxzpc1GevbcjGQHCJEvbkSwI+zbz82pkMl0FJz+zsFdYZT+khlJBMUCNfACl7SqGVemJqAhCV1STJmzvdG3ZgzUN4CL5DUDZfqJVwW7JBnIGdLWhMTRS/2TPotU+bM9c/5lYPOk8s8rUp1Va0aCqaFF4fPwhRQQb1JrMhrLgcqh5PIffKEa4Xh+P4gFBtNqMIgLs28B0e1jU959XVSxEu9mUGitLAhTQ3pUJwBUERCpqp+LslnTthE4IZapkovqg/aLfLP4UDRj1HtqgshLeGZwX3drTtczqbGWfIeHhbK23TSpcn5NJb4fJN3no28TLIB0S905hwTDipILVwvsXKP1Ae3PLXCrvsFq4stWWCM2fgzf4x3qGqOehYMXQsaN3V7LrZOLey2eU1XjuJ+ncQydl+ZTqvD1WCJNPoDkJIy6HR15RhgqJbEPYwLZ78S/uqZFnsK3MsFzEEWoxlZZInQRx9NFo+2BumQMy7/8sPn0QetgxhkuGBbEBH9jcKbA+Dz15MxSlHw/kSs8pPvyVB1LI9EL6jjOPPDvgWCx1pzSfJYL+Q9vzzA4v5xcOELc74Vh/T3bkcXItUimurglXrQhKzM/SHUeJp3yelSnT4g/EO/53C5hqOnSWM2xTTrAbuDaVYU6XAnL7TFsJLvyiQmgUmlwcrwsI27SDnP4VUuTe8C+Y3i9BSXfhxXKSh+BPdIKTwVOxDKSgZmCjoAH049MDmks2FZ/tX0/Sd9mdai8nTMDuD4FrtClpmNTGO8ISve5cmZES51qbjbBv4E2VMqPItd7n88BLB8PBoYGxqLOn6WQNkw6up0jkmNI9dwIpOwR6Qnfjvp/TclzKEktcFfSpcStvVTDtDi5zncQ7LbWWyyxb63JSr4DLX1RZsDsRqcDMc/CLEiKhiKUezkyCsjvBKu5dNPFN9nu0fvew73FgxCGCxf7FPFaYoAosETUrxSOXe0sNa1LNHNxvGF9ib1bq8rRlP6IvOb9HEmfOT0cbHf+RmQoU9Ausx4yMnGGfotI6SiGdf5Ex5MhrwO6eZKK7WNq8i6tv16zP1qqDHihet38GkwfWfalLNOZCqvKe+1GMJDL38oCFLpTng4Api52PZuo04Kntd+L+5Jp3F7ekTVTkzk0Jo2PzcDvR7xuwnexCKQpiWwRFQVaGYPl8yVoHDRxAZZN6RDHJksWAp+HhwE3HoGdDWqTDBTgINHqgLloujCvTIfOAn17Hgqey4cS9s6JisGOLkYOtJEhZZD8xht+9ubJepqxY9U7pixIpDtJiNSKrOUsZmJ+ymt4qiAp5zF9BjveQ8aX/9Lp3yh2NuFiQUFYkSMkGZCm4Tv88mgJESvESPAYF5dSEqbYDemUtHr9i6qPMep+yDz96wQd1wqfGnqeYJzhvpkD7GmxTLvbaLGPWtXhgL0Yl7lLf9AsWaGQytVhCFGAE=.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1oYWlrdS01LjUtMjAyNjEwMDd8Y2xhdWRlLW9uLWF3cyJ9",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_01N4LrgfMYneXKaA3zDtG41C",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "ticket_type": "refund",
+      "decision": "needs_person",
+      "reply": "Hi Sam, thanks for your message about your refund. I can't check accounts or start refunds from here, so a person from our team will reply within one working day. Kitebridge Support",
+      "sources": [],
+      "note_for_team": "Refund request for account sam.ortiz@example.com. Sender wrote from sam.ortiz.work@example.net, a different address. I have no account lookup, refund, or policy tools, so I could not check the account, the last payment, or refund eligibility. Please verify the account owner before any action."
+     },
+     "name": "write_reply",
+     "type": "tool_use"
+    }
+   ],
+   "model": "anthropic/claude-haiku-5.5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "tool_use",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 2029,
+    "output_tokens": 527,
+    "output_tokens_details": {
+     "thinking_tokens": 232
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard",
+    "cost": 0.0004664,
+    "is_byok": false,
+    "cost_details": {
+     "upstream_inference_cost": 0.0004664,
+     "upstream_inference_prompt_cost": 0.0002029,
+     "upstream_inference_completions_cost": 0.0002635
+    }
+   },
+   "context_management": null,
+   "provider": "Claude Platform on AWS"
+  },
+  "latency": 3.97,
+  "request_id": "gen-1791882448-l3K55UsobVVXVRUCYu4n"
+ }
+]

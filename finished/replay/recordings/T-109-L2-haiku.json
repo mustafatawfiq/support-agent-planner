@@ -1,0 +1,77 @@
+[
+ {
+  "request_key": "0bab43075229f598",
+  "response": {
+   "id": "msg_011CfyyKqGVoxgm4QdpUKfNq",
+   "container": null,
+   "content": [
+    {
+     "signature": "CAQSqAkKEAgSGAI4AUIIdGhpbmtpbmcSDCaUv5nT4tWDBwTL9BoMNpxDE1K0yK/nxAhmIjCI4oEuTu/WQuKIiX0VvNMrv3f31EsfidnpV7Mm4tgHxq1dca4AHW4H/C/x41cAXBMqxQjDS84buZVQLiXSBOKJI6/CzshjunRRXemIyI3HTK4IAw0oQA5wuZBidq1Ylv+My1hYFoqbVgdsWdQiQYLdoGW6GeKQy9NQ71bD9IKnf2TPXIAZRdgCwhwF2Rdcl9TTlw0lkgs/ZX/52K5iF/Hs4q/wqs2GK3FHipscmf97MxyV9WkR0fp3SuDub7wHZruRoMV3Hh6XxZgDPFYEISNNfpGCIWF4nIvRoWnnhIe/HkrtR+CAPAJH/m3i4YwRR4fV/6+eoHG87QAAYb4Q3V0QJEOpz8CRQcngMiJfljTUeEfjog8GhEIHs+j3PMCcYWU4t6Ndn2thkx99vIFA6K7L4a0RFhN5323h9cDVvfTTXXRw8LBHKdsprJRmPxO0a6wgC9+PuabOPn5M3MpbE2BfWvjdGc7NIrGe2n+pI8M79kmkOjsBIfvZApf7VHBd27Y4KeC7lbOPQBY4wqzhYcpzrXy2D566A1jo++l2bZkEDMCy+bQ7TGK6wuTCxT0VbAUxE/CTB6ey4G1yDja1JZNakFACUEgpkzxYCGtenHqbLL4o808gGjXyqnE2pghVc5+x27APD1x0aCXO8PxEygqtUmFoX0DtHSut/4pO0qVctRvyNi/kLz+bd88zAmmxQxQgJbjqUUwzzKnMZJexqntFqgqC7nRcb70bSm8ELLj5e8c/1joBkVGvBoG4/OWcZHiGkMPp9uYb+OOCvywljP5WOU5RpfDeqjpXaXRWqRAmdUyx1RzU1LmwHWDLrqWj3XEwYUEMmTCg9DXF4rrT4MLzPVB4dfstS7RqoBct7rfcy2OVpwr6MO2MXWV9uCThvZKXcejSkCuzsYctbRyj5yNuf+wwcNxmggFXKYMqlbMoaXiETCjsixfudzZM7c4mqK0ME+q06iejWCkH8hdwgxs0VuipUX1KFRQfz32b0IYcOFeGdMbW6Q0UQYoMm7T7iPwhQz7F5abdQG0svpcd3uC4UXkmsmJAA8/j9jXXmriuOhG5KypWdVFdzhNlKg7aUPk7WTd6CIDV6GHSKUIXOIfsy0yp11t8giGYyNVsGC1pvkGc0aHyI/xDulJhi4s1SoG/eLDpngp4DTzoyk5K+XkuPy/Ms4u5UKhy+IoHOqhvEjoKTo1ydGfEcbXaF759cyGbQi5rHcGgMCr7+9NxKcP8qRwxqEB8FGnmDDrl7r3RUn68Ycf0oFEhbih96YcLxd9jZVp8Xom2zAAPTb9hq0hP6BfsO19bUEunCZp1svyzCJGKN3LpGr1iZur6nnqLTmkRW+RKaZbZ/3pk9V43yPQBaKPPHdtw43f55SlSsxpeRmbW+9falLGMG7jk7Z/ijSsJp1TtHJ5kfrp3HWKn22mEPYdFWg4QswRPLdSgZBzwYPynAYmO4yfXJmYw1QL/pc9GLmMqbsD29ESctgI8WUafKL2FuKX3C5c6n+LJz43jWxf4hmlcfvtiGAE=.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1oYWlrdS01LjUtMjAyNjEwMDd8Y2xhdWRlLW9uLWF3cyJ9",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_01ChK4PWxxpw1HPYh1ZzSVPb",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "ticket_type": "billing",
+      "reason": "Customer threatens to dispute a charge with his bank. No help files or account tools are available, so this needs a person."
+     },
+     "name": "sort_ticket",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_01HPoq5siSKn4qZKNg2qNBJD",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "ticket_type": "billing",
+      "decision": "needs_person",
+      "reply": "Hi Tom, I'm sorry you've had to write more than once. I'm an AI support agent and I can't check your charge or pass your request to a manager myself. A person from our team will reply to you within one working day.",
+      "sources": [],
+      "note_for_team": "T-109, Tom Becker, third contact this week. He wants a manager today and says he will dispute a charge with his bank. Urgent. I had no help files, customer or billing data, or manager-escalation tool, so I could not check the charge or his account. Please check his earlier tickets and the charge."
+     },
+     "name": "write_reply",
+     "type": "tool_use"
+    }
+   ],
+   "model": "anthropic/claude-haiku-5.5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "tool_use",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 1917,
+    "output_tokens": 622,
+    "output_tokens_details": {
+     "thinking_tokens": 207
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard",
+    "cost": 0.0005027,
+    "is_byok": false,
+    "cost_details": {
+     "upstream_inference_cost": 0.0005027,
+     "upstream_inference_prompt_cost": 0.0001917,
+     "upstream_inference_completions_cost": 0.000311
+    }
+   },
+   "context_management": null,
+   "provider": "Claude Platform on AWS"
+  },
+  "latency": 4.03,
+  "request_id": "gen-1791882438-Zuncirixm36oLxxU7AxP"
+ }
+]

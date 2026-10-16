@@ -1,0 +1,201 @@
+[
+ {
+  "request_key": "2c7a9096063a9730",
+  "response": {
+   "id": "msg_011CfyyJFxk7sfYCtQfcHczT",
+   "container": null,
+   "content": [
+    {
+     "id": "toolu_01Qp98e2FWh1GSocLyGUrqV2",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "ticket_type": "billing",
+      "reason": "Asks next payment date and amount, and how to update the card on file."
+     },
+     "name": "sort_ticket",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_01HpyhA3zgW87EtbRSezRoyJ",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "name": "billing"
+     },
+     "name": "read_skill",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_01SvduzBTh4QgCMse5Ar9zsR",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {},
+     "name": "find_customer",
+     "type": "tool_use"
+    }
+   ],
+   "model": "anthropic/claude-haiku-5.5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "tool_use",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 3041,
+    "output_tokens": 166,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard",
+    "cost": 0.0003871,
+    "is_byok": false,
+    "cost_details": {
+     "upstream_inference_cost": 0.0003871,
+     "upstream_inference_prompt_cost": 0.0003041,
+     "upstream_inference_completions_cost": 8.3e-05
+    }
+   },
+   "context_management": null,
+   "provider": "Claude Platform on AWS"
+  },
+  "latency": 1.66,
+  "request_id": "gen-1791882417-5GyL90XmpMHkWeNw4IRk"
+ },
+ {
+  "request_key": "e21808d8dd597ac5",
+  "response": {
+   "id": "msg_011CfyyJPJGdh7umLVRUisU2",
+   "container": null,
+   "content": [
+    {
+     "id": "toolu_01EWcrSfKsEqfhCcuHSDQXWW",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {},
+     "name": "verify_identity",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_01LtoThzJVmUTgfhaXXHUz7A",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "question": "how to update card on file payment method"
+     },
+     "name": "search_knowledge",
+     "type": "tool_use"
+    }
+   ],
+   "model": "anthropic/claude-haiku-5.5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "tool_use",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 3767,
+    "output_tokens": 83,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard",
+    "cost": 0.0004182,
+    "is_byok": false,
+    "cost_details": {
+     "upstream_inference_cost": 0.0004182,
+     "upstream_inference_prompt_cost": 0.0003767,
+     "upstream_inference_completions_cost": 4.15e-05
+    }
+   },
+   "context_management": null,
+   "provider": "Claude Platform on AWS"
+  },
+  "latency": 1.3,
+  "request_id": "gen-1791882419-mUGRjUWN23ho130QuV5D"
+ },
+ {
+  "request_key": "8ede77d74d6384b8",
+  "response": {
+   "id": "msg_011CfyyJUs8LKo7m49oWofkJ",
+   "container": null,
+   "content": [
+    {
+     "id": "toolu_01EjNMsZgxBbgNPHB1s2e56k",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "ticket_type": "billing",
+      "decision": "answered",
+      "reply": "Hi Aisha, your next payment is 79.00 USD on 27 October 2026 for your Pro Monthly plan. To put in a new card: log in, open Account, then Billing, click \"Payment method\", then \"Replace card\". Enter the new card and click Save. Please change it at least one day before 27 October 2026 so your next payment uses the new card. Full steps: https://kitebridge.example/help/change-card\n\nKitebridge Support",
+      "sources": [
+       "knowledge/change-card.md (https://kitebridge.example/help/change-card)",
+       "knowledge/when-am-i-charged.md (https://kitebridge.example/help/payments)"
+      ],
+      "note_for_team": "Identity verified (address matches). Next payment 79.00 USD on 27 Oct 2026, Pro Monthly, active. No issues."
+     },
+     "name": "write_reply",
+     "type": "tool_use"
+    }
+   ],
+   "model": "anthropic/claude-haiku-5.5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "tool_use",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 4900,
+    "output_tokens": 393,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard",
+    "cost": 0.0006865,
+    "is_byok": false,
+    "cost_details": {
+     "upstream_inference_cost": 0.0006865,
+     "upstream_inference_prompt_cost": 0.00049,
+     "upstream_inference_completions_cost": 0.0001965
+    }
+   },
+   "context_management": null,
+   "provider": "Claude Platform on AWS"
+  },
+  "latency": 2.22,
+  "request_id": "gen-1791882420-I60TBwqOwzzo2lOrG2gY"
+ }
+]

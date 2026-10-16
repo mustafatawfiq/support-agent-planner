@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Support agent demo</title>
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<header class="top">
+  <div class="brand">
+    <div class="name" id="brand-name">Support</div>
+    <div class="sub" id="brand-sub">A support agent, built layer by layer.</div>
+  </div>
+  <div class="views">
+    <button class="btn light" data-drawer="folder"><kbd>F</kbd> Folder</button>
+    <button class="btn light" data-drawer="queue"><kbd>Q</kbd> Queue</button>
+    <button class="btn light" data-drawer="rules"><kbd>S</kbd> Rules</button>
+    <button class="btn light" id="tests"><kbd>T</kbd> Tests</button>
+    <button class="btn light" id="video"><kbd>V</kbd> Video</button>
+  </div>
+  <div class="right">
+    <div class="model"><span id="model-id"></span>
+      <div class="switch" id="model-switch"><button data-model="haiku">Haiku</button><button data-model="sonnet">Sonnet</button></div>
+    </div>
+    <div class="mode" id="mode"></div>
+  </div>
+</header>
+
+<nav class="bar" id="bar"></nav>
+
+<div class="controls">
+  <div class="picker">
+    <button class="btn icon" id="prev" title="Previous ticket (left arrow)">&#8249;</button>
+    <select id="ticket-select"></select>
+    <button class="btn icon" id="next" title="Next ticket (right arrow)">&#8250;</button>
+  </div>
+  <div class="actions">
+    <button class="btn" id="run-rec"><kbd>R</kbd> Recorded run</button>
+    <button class="btn" id="run-live"><kbd>L</kbd> Live</button>
+    <button class="btn dark" id="step"><kbd>N</kbd> Next step</button>
+  </div>
+</div>
+
+<main class="cols">
+  <section class="col">
+    <h2>Customer wrote</h2>
+    <div id="customer"></div>
+  </section>
+  <section class="col" id="steps-col">
+    <h2>What happened <span id="count"></span></h2>
+    <ol class="steps" id="steps"></ol>
+  </section>
+  <section class="col">
+    <h2>Reply</h2>
+    <div id="reply"></div>
+  </section>
+</main>
+
+<footer class="log" id="log" title="Open the full log (G)"></footer>
+
+<div class="drawer hidden" id="drawer">
+  <div class="drawer-head"><span id="drawer-title"></span><button class="btn light" id="drawer-close">Close <kbd>Esc</kbd></button></div>
+  <div class="drawer-body" id="drawer-body"></div>
+</div>
+<script src="/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,139 @@
+[
+ {
+  "request_key": "ba726438a5aceed6",
+  "response": {
+   "id": "msg_011CfyyGPKx22ipi6YiBpbM1",
+   "container": null,
+   "content": [
+    {
+     "signature": "CAQS+QYKEAgSGAI4AUIIdGhpbmtpbmcSDO3G8/Th00JUzRoeERoMVvqfD5uainbdSgQnIjBJ2HcbII6mfOycA9Oi9MHtQtLOw62w52DN/ODjGoFNdGcBPSsSsFiT6VzafVktaNwqlgZUrt5RLJtcIAH4xThsXUP1Y6q44HlwoBF0POZgO4/J2eWgMW8agqS3yMYBoPKeEkpkRo5zcXc3v6x0dRaRu5/2ACRVA08CCSAF/AEiGlH7lPvuYT2rhwCUZlR8lLAPMeP6BfQ2nmIbpGXQF5pIvdHw1LJJbo2Uqr2STaLbqhQTHmsO1NfIHSaszZ9fIRamLsZp42i7VBS5n764Whi4INyE+raIZRJRtCtoQbeTLNhIE3cr/wXIMht8Q3qcyfPplA7XclQT8OvnAMrLhrnnSRRMP45Q0H0tc214xkHYytINjE2ZZBKJ2E7A+GQX0i6VetcRfJCcsIudEDIFhjInquSDkYIvnXs9C0yo1CwzTmHuo0sPBWW3irjSzGgtnzEp/xNWTN7Wow+NF/z9vrCXQFmMaTbTHHVTJwjZJU+r+CGhInJ2c0wSpw/p3sif7mRUbCPWgAJF/AO3nBNkoKOASnyg3EiPDI8hNow5jy9fCFMHLFmn6keZoazg67QrXbvO0UKcNd7Mu5Tf+fSGEteNyBrb+WddYGOu72orMSlUstXaxZ/zs1ONRxWHr2XRc7C7VcLRI+MPx4BJV4YctVGQBCcf3T6j2qQq9xxKdE6Yhv3e/Knfcd0w7tEuXE5nyoR4pUGDPkAOrVTyQV7uycMp2UnzUHrHP/gwfQQaFDh4DUPvMX2RoiNFc3CZjT1CZNNnOYX7N5FvPHn5degOdc+R/OAmZfclEm5aUcK2JHTDXd5Pocf/n/dPKvMFCJheQjtuSnAb1oDYlhmIoj5HeBHsjvj2m26g/KDBLdSbASabbVZg4bfPcrnhZzUgzNqDXjKZFulimsc4HsZiEfq5TXme/cZzw7iL1F3xyElBjnSc4sGPHooqatKWYtpAEjhIU6OvxwMD6QXXE1labdgXppRHyaoCOqZ9zf86vK2Vc0XPYNZwpt220GlVmTZiw3Zr4efQbct+BbFz+6T1KZLg9eM3LQ8iZ9+A8ZQgafvbyPvCpHIAeSZcyuZKdVdKDv6W42reNH4fH2I64kNU1I5WI9VyRAoRiQZPFBnXGAE=.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1oYWlrdS01LjUtMjAyNjEwMDd8Y2xhdWRlLW9uLWF3cyJ9",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_01FVqARxuNnhmXHC7HXdB8G4",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "ticket_type": "refund",
+      "reason": "Customer asks for a refund of a yearly plan fee."
+     },
+     "name": "sort_ticket",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_017SQY7br4oS6fV18r5oUi58",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "question": "refund policy yearly plan"
+     },
+     "name": "search_knowledge",
+     "type": "tool_use"
+    }
+   ],
+   "model": "anthropic/claude-haiku-5.5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "tool_use",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 2067,
+    "output_tokens": 251,
+    "output_tokens_details": {
+     "thinking_tokens": 100
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard",
+    "cost": 0.0003322,
+    "is_byok": false,
+    "cost_details": {
+     "upstream_inference_cost": 0.0003322,
+     "upstream_inference_prompt_cost": 0.0002067,
+     "upstream_inference_completions_cost": 0.0001255
+    }
+   },
+   "context_management": null,
+   "provider": "Claude Platform on AWS"
+  },
+  "latency": 2.28,
+  "request_id": "gen-1791882392-xWhVN5pO17oZHPb66i64"
+ },
+ {
+  "request_key": "06d6386fe700fcc3",
+  "response": {
+   "id": "msg_011CfyyGZGjXNRDwCrL7P3AP",
+   "container": null,
+   "content": [
+    {
+     "signature": "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.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1oYWlrdS01LjUtMjAyNjEwMDd8Y2xhdWRlLW9uLWF3cyJ9",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_016F1gdKHrZNWwHjkFhY7apV",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "ticket_type": "refund",
+      "decision": "needs_person",
+      "reply": "Hi Marcus, thank you for writing. Our refund policy lets you ask for a refund within 14 days of a charge, and the same rule applies to yearly plans (https://kitebridge.example/refunds). From your date of late August, the charge looks to be outside that window, so an automatic refund is not available. I cannot see your account from here, so a member of our team will check it and reply within one working day. If you want a person to review the charge, you can also request that at https://kitebridge.example/review, where a person answers within 2 working days. You can also turn off renewal so you are not charged again, and you keep access until the end of the period you paid for.\n\nKitebridge Support",
+      "sources": [
+       "https://kitebridge.example/refunds (policies/refund-policy.md, checked 2026-10-13)",
+       "https://kitebridge.example/review"
+      ],
+      "note_for_team": "Yearly refund request, charge stated as end of August 2026 (about 7 weeks ago), outside the 14-day window in refund-policy.md. I could not see the account, so I could not confirm the charge date or plan. Please verify and handle any review request."
+     },
+     "name": "write_reply",
+     "type": "tool_use"
+    }
+   ],
+   "model": "anthropic/claude-haiku-5.5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "tool_use",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 3477,
+    "output_tokens": 827,
+    "output_tokens_details": {
+     "thinking_tokens": 342
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard",
+    "cost": 0.0007612,
+    "is_byok": false,
+    "cost_details": {
+     "upstream_inference_cost": 0.0007612,
+     "upstream_inference_prompt_cost": 0.0003477,
+     "upstream_inference_completions_cost": 0.0004135
+    }
+   },
+   "context_management": null,
+   "provider": "Claude Platform on AWS"
+  },
+  "latency": 4.88,
+  "request_id": "gen-1791882394-Z6V7LmhiiMX1FCwHZ1jH"
+ }
+]

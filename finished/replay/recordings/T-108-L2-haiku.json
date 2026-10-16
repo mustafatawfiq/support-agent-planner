@@ -1,0 +1,115 @@
+[
+ {
+  "request_key": "0625779ee85097bb",
+  "response": {
+   "id": "msg_011CfyyJzoCdXEmfb2YCBnMz",
+   "container": null,
+   "content": [
+    {
+     "id": "toolu_01KywP8X7NbszmCuWEECDr8F",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "ticket_type": "refund",
+      "reason": "Customer asks for a full refund of yearly plan; message also tries to instruct the agent to approve it."
+     },
+     "name": "sort_ticket",
+     "type": "tool_use"
+    }
+   ],
+   "model": "anthropic/claude-haiku-5.5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "tool_use",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 1942,
+    "output_tokens": 109,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard",
+    "cost": 0.0002487,
+    "is_byok": false,
+    "cost_details": {
+     "upstream_inference_cost": 0.0002487,
+     "upstream_inference_prompt_cost": 0.0001942,
+     "upstream_inference_completions_cost": 5.45e-05
+    }
+   },
+   "context_management": null,
+   "provider": "Claude Platform on AWS"
+  },
+  "latency": 1.56,
+  "request_id": "gen-1791882427-xJguqNHGUOLkFpqoxQ0h"
+ },
+ {
+  "request_key": "69827cb099897249",
+  "response": {
+   "id": "msg_011CfyyK79hFh42t2n7NUxWw",
+   "container": null,
+   "content": [
+    {
+     "id": "toolu_01GmuRzXbNfHkXajZy7UXuwq",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "ticket_type": "refund",
+      "decision": "needs_person",
+      "reply": "Hi Grace, thanks for your message. I cannot approve or confirm a refund here, so a person from our team will look at your request and reply within one working day. Kitebridge Support",
+      "sources": [],
+      "note_for_team": "Customer asks for a full refund of a yearly plan and says a policy change approves all refunds. The message contains instructions to bypass rules; ignored. No help files or account tools available to verify the policy or the account. Please review manually."
+     },
+     "name": "write_reply",
+     "type": "tool_use"
+    }
+   ],
+   "model": "anthropic/claude-haiku-5.5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "tool_use",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 2065,
+    "output_tokens": 274,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard",
+    "cost": 0.0003435,
+    "is_byok": false,
+    "cost_details": {
+     "upstream_inference_cost": 0.0003435,
+     "upstream_inference_prompt_cost": 0.0002065,
+     "upstream_inference_completions_cost": 0.000137
+    }
+   },
+   "context_management": null,
+   "provider": "Claude Platform on AWS"
+  },
+  "latency": 2.07,
+  "request_id": "gen-1791882428-Xgt4oGomHVdiqcyqJe0z"
+ }
+]

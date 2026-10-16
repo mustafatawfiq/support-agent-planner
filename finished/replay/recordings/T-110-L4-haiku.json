@@ -1,0 +1,129 @@
+[
+ {
+  "request_key": "8df316c4a5ada386",
+  "response": {
+   "id": "msg_011CfyyLd1pzvZKDT2kuuNqe",
+   "container": null,
+   "content": [
+    {
+     "id": "toolu_01URfY3BxSgrQcKxX2nwiLA1",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "ticket_type": "refund",
+      "reason": "Customer asks for a refund of their last payment."
+     },
+     "name": "sort_ticket",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_012kHF7hrQcHYazdjUqgtgRi",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {},
+     "name": "find_customer",
+     "type": "tool_use"
+    }
+   ],
+   "model": "anthropic/claude-haiku-5.5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "tool_use",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 2256,
+    "output_tokens": 115,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard",
+    "cost": 0.0002831,
+    "is_byok": false,
+    "cost_details": {
+     "upstream_inference_cost": 0.0002831,
+     "upstream_inference_prompt_cost": 0.0002256,
+     "upstream_inference_completions_cost": 5.75e-05
+    }
+   },
+   "context_management": null,
+   "provider": "Claude Platform on AWS"
+  },
+  "latency": 1.6,
+  "request_id": "gen-1791882449-KTQxtn4dnq2bMVq7WNFY"
+ },
+ {
+  "request_key": "1ec473dd0717dd30",
+  "response": {
+   "id": "msg_011CfyyLjspe3qJQUzWiZm8f",
+   "container": null,
+   "content": [
+    {
+     "signature": "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.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1oYWlrdS01LjUtMjAyNjEwMDd8Y2xhdWRlLW9uLWF3cyJ9",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_01E33QuDW3CGGcgyi1Pt5KQv",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "ticket_type": "refund",
+      "decision": "needs_person",
+      "reply": "Hi Sam, thanks for writing to Kitebridge Support. We could not find an account for the email address this message came from, so I cannot look into a refund yet. Please write to us again from the email address on your Kitebridge account. A person from our team will reply within one working day after that. Thanks, Kitebridge Support",
+      "sources": [],
+      "note_for_team": "Refund request, sender address has no account (find_customer: not found). Did not check or mention the other address in the message. No refund decision made. If the customer writes again from the account email, a person needs to review the refund."
+     },
+     "name": "write_reply",
+     "type": "tool_use"
+    }
+   ],
+   "model": "anthropic/claude-haiku-5.5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "tool_use",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 2474,
+    "output_tokens": 602,
+    "output_tokens_details": {
+     "thinking_tokens": 293
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard",
+    "cost": 0.0005484,
+    "is_byok": false,
+    "cost_details": {
+     "upstream_inference_cost": 0.0005484,
+     "upstream_inference_prompt_cost": 0.0002474,
+     "upstream_inference_completions_cost": 0.000301
+    }
+   },
+   "context_management": null,
+   "provider": "Claude Platform on AWS"
+  },
+  "latency": 4.18,
+  "request_id": "gen-1791882451-uA4rcs7yLyjbBxx7BAeo"
+ }
+]

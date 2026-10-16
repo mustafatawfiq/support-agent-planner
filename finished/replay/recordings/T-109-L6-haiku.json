@@ -1,0 +1,91 @@
+[
+ {
+  "request_key": "060298e415619f64",
+  "response": {
+   "id": "msg_011CfyyLJoSzt1tZ443tA8Ac",
+   "container": null,
+   "content": [
+    {
+     "signature": "CAQS5AYKEAgSGAI4AUIIdGhpbmtpbmcSDAAtKM5892LqSv4CSxoMMy21I0JPROyB1tfyIjAuNuJ566qTEPCunBF7/upOsJHzwDe9bXwuzhmdr54Yi4pTKAXGBN+P55BFUTtuHBgqgQaTexFpYQ+qu13LPVJeSiUGeioFU/Lalsl2FZgXyTDy4r+Tv3FiP33/cyDOwmarnC3ANeqYCXVE5NSciVNMsFwfIJXVSa8NAQkTt5YT2t8pfXowVBrTUFyfr1GKOwCP9YByuYZp63mH5wRuuY/KjrouDUE6t2VMnvklmr5W4jpmFey4KxldrPklgAvvuZhw+KyYanadaRN35xNfgmgIiZWv6htWwQRg6GY69yFqEznyR46av0AVE+BVHEddripF6hCTh4aXsjLiU3BU0dgPI+OWOQX6d+aAbmW0QGo0r+Btli+/UAxtIdW7EOBL/uLztmYARKPMNvQ0xBVY2TCzNmita9WWGj4D/2FvwFtVmp9ezOtaXI9+74Q3wZgZn1eKIg0pHsUzx5t/DWKXOGGj8EXk1e2QIFhOIwfgdaPwGyPchYrgW0Qbr60k+IVmviGDijWfKWg5lkay5YAj0B+Xer17swlFw5/DEfuTDFkvrVaFqeugbjI2z52UdmVM/vK9xXLiMaadSFLgYDQ4tf9nb3kdiKe6YJafZ86btZIITLj0AKlxFcfxODcP/sBLS4NtO3Uhpuy4k7V2VMU7yMChC0zpdJigOfH2qHRi4SzhO+sgt3sBxneF9xTv39bFwJ5TyJFt80IMnL1HDx9ViTDsyIWCMqvrPSE0BDD2FYk4Du01fNZZUEJcKwF3s0jXyQq5HUfQdW8RLqpMttfZQrqcYqlb1TPWR+eVM1r1DUlsCMzWb/ei8+AK0P5jP5PnG24UmNILb/Tcbt0lm1TX9+pO1TZs7Mil8mbWflsN1M5EovdPZynBVmRrwGrK3y1JJLGOl6kqpKrxQnGFacgjy5qv2pRArFKmWKBgKCgvPqleDfwzu4nK/CsBAPRDDb8+rvsQ1KodS9k0xLWKWLEYO3uYMf4dYEHOeNU/OZ6BZTFQet9nSXY+p6teSA2rlNoD1mlauFVrvLYfi6tE6YKMJX09hRrIcT2nS2PZpYB4eClaOK8jpQRvPb7HSK3Nvfgdja1GPpj7GAE=.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1oYWlrdS01LjUtMjAyNjEwMDd8Y2xhdWRlLW9uLWF3cyJ9",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_01NRa4WoMBgNkkKDf5nRYziR",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "ticket_type": "other",
+      "reason": "Upset customer asking for a manager and threatening a bank dispute. Needs a person."
+     },
+     "name": "sort_ticket",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_01R3pscPrSQstE8geCKvTSbK",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "reason": "Angry customer, bank-dispute threat, asks for a manager, repeat contact this week",
+      "urgency": "high",
+      "summary": "Tom Becker (tom.becker@example.com) writes for the third time this week, saying nobody has answered. He wants to speak to a manager today, or he will dispute the charge with his bank. He does not name a specific charge or request. I did not look up the account or verify identity, so I have not checked the charge or his earlier messages.",
+      "suggested_reply": "Hi Tom, I am sorry you have had to write three times this week without an answer. I have passed your message to a member of our team, and they will contact you as soon as possible. Could you tell us which charge you are asking about, and the date it was made? Kitebridge Support"
+     },
+     "name": "hand_off_to_person",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_01T5uaSDG1Bgc3Lozzin8j27",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "ticket_type": "other",
+      "decision": "needs_person",
+      "reply": "Hi Tom, I am sorry you have had to write three times without an answer. I have passed your message to a person on our team, and they will reply within one working day. Please tell them which charge you mean and when it was made, so they can look at it quickly. Kitebridge Support",
+      "sources": [],
+      "note_for_team": "Urgent: Tom Becker wants a manager today and threatens a bank dispute over a charge. He has written three times this week. I did not verify identity or check the account or charge, so please look up earlier tickets and the charge before replying."
+     },
+     "name": "write_reply",
+     "type": "tool_use"
+    }
+   ],
+   "model": "anthropic/claude-haiku-5.5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "tool_use",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 3030,
+    "output_tokens": 828,
+    "output_tokens_details": {
+     "thinking_tokens": 95
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard",
+    "cost": 0.000717,
+    "is_byok": false,
+    "cost_details": {
+     "upstream_inference_cost": 0.000717,
+     "upstream_inference_prompt_cost": 0.000303,
+     "upstream_inference_completions_cost": 0.000414
+    }
+   },
+   "context_management": null,
+   "provider": "Claude Platform on AWS"
+  },
+  "latency": 4.18,
+  "request_id": "gen-1791882445-Tikwfd9IO9Qz6CU1zPmW"
+ }
+]

@@ -1,0 +1,151 @@
+[
+ {
+  "request_key": "dd4921fc7aa2446a",
+  "response": {
+   "id": "msg_011CfyyJWg2Dd9kSDpCqbJRX",
+   "container": null,
+   "content": [
+    {
+     "signature": "CAQS/wUKEAgSGAI4AUIIdGhpbmtpbmcSDIGpeG7hcAkQPjm3UxoM6V0/59/fgHR+YbtjIjBhhZEtGvEdnIZGFp8yhpjELQiXnLNREmnpBdBzqnwqt/ytjIhNXn/jauzoSGG9TQkqnAXrq6i5CUOtNJOgac2+KYxwtFdiU4ERk5Qg3Mew7QttxK67QoiiOdCNXZQQ/P3eT8FdOTnXgDBQlnlomuq9HiQlcH13qCjkRX7SXpNOR/w7sfUIHByuUX//5xmHNm9DA+GuXL+VS1QGY0a/X0u0n8R+X/+FCEoAb6rPGlak5dAN+hDAX9h/4lW05H7z48UvdM/cS3t+TC3/mHsIVzjrv+XhZf6+4v9XZYdf6+EeBlRVOQ6EESs3ADdlAnkYBjv2odgQV4iKLG5PeoMJEaiaEFhuRegpbwdVp6Wuf0AfE3BFu2QmdzUUmhlJ5K44uiaBCxnUaenC3lNPnszXqzAVpZi8FX4NJUVe2zW2b8fhPTzDwMcYU8bYP/OfN1OTdz7xDN/odwydkRgwO9/+BIgp6OrXwnaRa2VLMMMwOLWiiGCczu+NtypBstM1+rzEYVBsKatI8DBqAWaN1iUwddAU/hzAgDfv1XPeT4yrLsGEKKdy9eGeS2eBb4BEPdDfIM5VQPljx8ybz1QLubMQZlxLMBxmBSv7cwhEpRGLvVfNEsuYPOmej3/D1FmiVy/Q+E+MAgxVTFbFIfzqvC6BFWylKPRM7deKjmtWzVWqw+F2TYpESOYBLrhzSeYuAuXs9pUYPPTYwn14AOH36mAukGPEew2D1O+EjdLLDgyK4rVjowvxoz9H6a67VsJTuxWVpPUrkXTt2HQmiU/08r7gaSayqjEMzrscodF0mlKPyIzGmEyFHJA73zQaVLCz1Ms3XhXMTT0iCu6DypDiCCw5rtV/XbaKHzvI54NWybteE4DywexwrujsI/yCgPqleQ1Fqu4X8CxYXICzuK/YUWj7TitOa+LCvR/3bRh60S2H3KZdAuoBm5uPqOQxlo6FQs5xpxgB.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1oYWlrdS01LjUtMjAyNjEwMDd8Y2xhdWRlLW9uLWF3cyJ9",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_01WrCeLviiaH9VUzTq9yUQAv",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "ticket_type": "upsell",
+      "reason": "Customer asks what Pro adds over Starter and how switching works."
+     },
+     "name": "sort_ticket",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_01H6eSedcHqmJdizeNgU2e3B",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "question": "Pro plan features compared to Starter"
+     },
+     "name": "search_knowledge",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_01JtCBnu3kZ2vwKNaYUQ3j8j",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "question": "how to switch from Starter to Pro plan, upgrade steps"
+     },
+     "name": "search_knowledge",
+     "type": "tool_use"
+    }
+   ],
+   "model": "anthropic/claude-haiku-5.5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "tool_use",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 2057,
+    "output_tokens": 290,
+    "output_tokens_details": {
+     "thinking_tokens": 66
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard",
+    "cost": 0.0003507,
+    "is_byok": false,
+    "cost_details": {
+     "upstream_inference_cost": 0.0003507,
+     "upstream_inference_prompt_cost": 0.0002057,
+     "upstream_inference_completions_cost": 0.000145
+    }
+   },
+   "context_management": null,
+   "provider": "Claude Platform on AWS"
+  },
+  "latency": 2.32,
+  "request_id": "gen-1791882420-B5KTMInIPHemOWBXLmER"
+ },
+ {
+  "request_key": "1fa3ccd7ea324529",
+  "response": {
+   "id": "msg_011CfyyJguReLaRJi6Qohgdd",
+   "container": null,
+   "content": [
+    {
+     "signature": "CAQShAcKEAgSGAI4AUIIdGhpbmtpbmcSDChvEBFgWVufVIfE4BoMe2XGhXuXupg8VpiTIjCR/0dkMixmj4mlR6BotG1V+sC+yLHoJMUQl6a1TiD/jSUmhKe7tCDFY3DU8njhEGQqoQYGAbJ5bD3IuupjQjS90fmPGQJ4wapjtvrHUVVcet9gutaXNESZKTNa+MR1J2Ipf/tTLW1HD8QvPZDfFqQEirqK0nsy9MpI+nEoEmwnY+gN/mhLpNDV7cCxEy4Gkj59w2/8p4//srx1mzCyM2Xgb0AqPgw8lQTI2LUMheroz0bWyGBlDsHnpuQtKrf7aOUTsTlR3UDGKmbiwsJ7Y9YhT+zCMs5mxdzYVUNw2wort6HF3CCflMWnPiSGCE1HHrU3QQKi4dFXX0fZYmPhTrsD3O+QXmysP8xsSNAx30coXx6INIYEFBc8FNrP8vNGzVFexOGiE41ybcoMYTq/tXIhUDUnxWPKE9nBOxxNI1pfUoRMgeqAlfSaA7n515v99PV8uSW3W5+U8Egn1656gIdqXur9TEhgJMgyN63Wj6kwp98iixVjODGzNUuvT1xFARy9UxKCWi+Ka/He/wUgJLQ9rkLZ2snDs+vQe+Q4eSMGA3GH8b5i4regCbL8bDDNEsE9ZDsxwsb8EY37wjKypEeHR66iDDDWjxF+umbTGa8coS4Niv7cOc0A4vJl3TwPl+wtmoaqTr4LRtwKPbY/abcd0dqwSwgDjInVyze6LPLChJiBO2OgrcCu+440Dr024qRuJFRKm3SdB9wTcNBU/aoeOWeGkJEQvRjpIUfZpmSN/FDm4QJ6Sd6FhvWPYpa7vXlMFqeJ0+1lOiPIoHN62fDwkcmaGHbmsPkr16yzTfbgJr9AXpPve2BEEERdFYisxfUzbt3LeZaQZGFw98naBs0coDIBwUql0AJPg9XcaC3oz5+jS1n+InTTEtL0lOglasHNzE/RfSnFvWdY2+Tl5awQkwhRUpW+P+/pp8RewTg2Mx79zNmttOwDMgZBGt9/s2zuVP1VEwcquX6CPfpEnHoLkDHFaLFy5nzP1agUl56gHE0eN2Yv1kbdGA+wCId3ROErl3/vq6Owu+T8BSIIPCA/BndTSjUFGuSTDVj0BS+ZJhTNbwTMWtkEv4LzNLIKhv4boxmDAj/DlHjDmSMOXj+BWgO8UExVK3Ygyu+WIT0Rz5+RA2wYAQ==.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1oYWlrdS01LjUtMjAyNjEwMDd8Y2xhdWRlLW9uLWF3cyJ9",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_01Er6Gnz3ruS3miju7fJrM8Z",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "ticket_type": "upsell",
+      "decision": "answered",
+      "reply": "Hi Diego, Pro includes everything in Starter, plus a weekly group coaching call (every Wednesday, 17:00 UTC), the template library, and one project review a month. Pro is $79 a month or $790 a year. To switch, log in, open Account, then Plan, and click \"Switch to Pro\". The page shows the exact amount before you pay. When you move up, you pay only the difference for the days left in your current period. You can read more at https://kitebridge.example/plans and https://kitebridge.example/help/switch. Kitebridge Support",
+      "sources": [
+       "https://kitebridge.example/plans",
+       "https://kitebridge.example/help/switch",
+       "https://kitebridge.example/help/coaching-call"
+      ],
+      "note_for_team": "Answered from help files (last checked 2026-10-01). I cannot see the account, so I did not confirm his current plan or the exact charge today; the switch page shows that amount before payment."
+     },
+     "name": "write_reply",
+     "type": "tool_use"
+    }
+   ],
+   "model": "anthropic/claude-haiku-5.5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "tool_use",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 4215,
+    "output_tokens": 503,
+    "output_tokens_details": {
+     "thinking_tokens": 74
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard",
+    "cost": 0.000673,
+    "is_byok": false,
+    "cost_details": {
+     "upstream_inference_cost": 0.000673,
+     "upstream_inference_prompt_cost": 0.0004215,
+     "upstream_inference_completions_cost": 0.0002515
+    }
+   },
+   "context_management": null,
+   "provider": "Claude Platform on AWS"
+  },
+  "latency": 3.06,
+  "request_id": "gen-1791882423-zuhHeQgk3MtcSdBb8ZzG"
+ }
+]

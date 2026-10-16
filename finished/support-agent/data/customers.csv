@@ -1,0 +1,13 @@
+customer_id,name,email,plan,plan_price,status,joined_on,last_charge_date,last_charge_amount,next_charge_date,refunds_last_12_months,access,internal_note
+C-1001,Hana Suzuki,hana.suzuki@example.com,starter_yearly,290.00,active,2026-10-09,2026-10-09,290.00,2027-10-09,0,link_expired,
+C-1002,Lena Fischer,lena.fischer@example.com,pro_yearly,790.00,active,2025-12-01,2025-12-01,790.00,2026-12-01,0,active,
+C-1003,Nora Patel,nora.patel@example.com,starter_monthly,29.00,active,2026-10-12,2026-10-12,29.00,2026-11-12,0,active,
+C-1004,Marcus Lee,marcus.lee@example.com,starter_yearly,290.00,active,2025-08-30,2026-08-30,290.00,2027-08-30,0,active,Long-time member. Referred three people in 2025.
+C-1005,Priya Nair,priya.nair@example.com,starter_monthly,29.00,active,2026-05-28,2026-09-28,29.00,2026-10-28,0,active,
+C-1006,Aisha Khan,aisha.khan@example.com,pro_monthly,79.00,active,2026-03-27,2026-09-27,79.00,2026-10-27,0,active,
+C-1007,Diego Romero,diego.romero@example.com,starter_monthly,29.00,active,2026-06-27,2026-09-27,29.00,2026-10-27,0,active,Asked about team pricing in July.
+C-1008,Grace Okafor,grace.okafor@example.com,starter_yearly,290.00,active,2026-07-01,2026-07-01,290.00,2027-07-01,0,active,
+C-1009,Tom Becker,tom.becker@example.com,starter_monthly,29.00,active,2026-02-03,2026-10-03,29.00,2026-11-03,1,active,Got a refund in May 2026. Wrote twice this week with no reply from us.
+C-1010,Sam Ortiz,sam.ortiz@example.com,pro_monthly,79.00,active,2026-01-15,2026-10-15,79.00,2026-11-15,0,active,
+C-1011,Omar Haddad,omar.haddad@example.com,starter_monthly,29.00,cancelled,2026-04-10,2026-09-10,29.00,,0,ended,
+C-1012,Jonas Berg,jonas.berg@example.com,pro_monthly,79.00,active,2026-10-14,2026-10-14,79.00,2026-11-14,1,link_not_used,

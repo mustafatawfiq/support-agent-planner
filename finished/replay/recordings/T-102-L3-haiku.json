@@ -1,0 +1,134 @@
+[
+ {
+  "request_key": "8b34b0a971075466",
+  "response": {
+   "id": "msg_011CfyyF55K8UCfxqUd2La79",
+   "container": null,
+   "content": [
+    {
+     "id": "toolu_01XShupB15DAwAvDU5yBo64t",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "ticket_type": "question",
+      "reason": "How-to question: where to find a past coaching call recording."
+     },
+     "name": "sort_ticket",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_01Etx2tushP85QnWdnuvSqbm",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "question": "where to find coaching call recordings"
+     },
+     "name": "search_knowledge",
+     "type": "tool_use"
+    }
+   ],
+   "model": "anthropic/claude-haiku-5.5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "tool_use",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 2057,
+    "output_tokens": 148,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard",
+    "cost": 0.0002797,
+    "is_byok": false,
+    "cost_details": {
+     "upstream_inference_cost": 0.0002797,
+     "upstream_inference_prompt_cost": 0.0002057,
+     "upstream_inference_completions_cost": 7.4e-05
+    }
+   },
+   "context_management": null,
+   "provider": "Claude Platform on AWS"
+  },
+  "latency": 1.66,
+  "request_id": "gen-1791882374-esenSX625rK3JDpeLFDg"
+ },
+ {
+  "request_key": "ad59a4975a751902",
+  "response": {
+   "id": "msg_011CfyyFDz6PihPcYjckK5Sh",
+   "container": null,
+   "content": [
+    {
+     "signature": "CAQSnQoKEAgSGAI4AUIIdGhpbmtpbmcSDJZRgMcCprolekxA+xoMVX5VqMaXjazqcjwfIjDi5poeIaygNwoaiQRdVQOcleXP2P7rQAsaPW3Jx3r44dtkZVxfG1sNqE2JqPFcFhMqugmtosgPQkeAQrQODpqgJzI70zCBSdebnrm8QNxa/HoqFCXKJCcalhN2Q78FLQ88GMFQL231RA2kQgp1hoGA5dXjrg9Q6ujpK6TnBuqUWWLTOs6a+C9wXXBXqCFj6V3j/eg8x3NhcRBDkO/Sp0yPOGWRL8iTjqE0QLHTCjyehRHYEVPQee9/jeih7bAwWit3iUk10QGeg5ZmPGJ+H1XHll2VTLCnzREDsyy0xUqVcg/qojKWQPt8FwtpzwhahLoxa37T0AYTd1q2OC8Y8ay7NNrLbFq9EBGAb7uj3ad6/RmyKw8ZCHiv4gSwdxzTvgVeMv5K0AuMkx16Fmkfr/RUzLDHACAGQN14F7TWhzeONW1xlSf80HxMAzaErwxeP/tS+Lp4mP5+6+iVNzv+zMRILpF03WKLqKa4ZzTxVGEecRzKp2JBSI7qyY+uR6M70VxHz1xIlWE2TtkhZoYm6peeAYQ3OrWjRWRQKd9gAfKnsk7R+a2rY5fT1knKDCQlKp8vzfpbYCcIeErARRl7KcH2cwG4LkSZZPpws9S0k1TWqoAVnYxK/iKSDNeJK4jDsNQoveRhpdSxk2jPLgnywkbDJp0jTFfomqeyVcQaanvHIa3yN8c+nON39C3hmVDdPWbEOwT4eLwcCFk4LyeBlLyn4a++l2IFZJMmuwdaRaV2Fsr4wWcOfomH0w98aqAnde9DOkCYvrbemds68H5AqEjl10ntcG90hlLk/aHrtYLXCZu83/jM07W1gmGB8vzzTDTpqE+0NJB9f8/KSGcXN5LZKNFtWhg/MmN6KyYe8WGUnT/0Ayoo926O8g3/iR6OWIN2aQ2sYBdgZllcH4Bq4dZPV+xnVopXxwSIR3GqiAPkRUyitwIxOjfrRtPUATP+EYC9JcSejmm9oGuX2/9JuZuJq59Zba3+SngbFox5nwTecBG6tOLT+j3YIaTIunZnUFMoZH5cL8JE6uAMLR1WZ+aJzv7uLxgjw+Ygn+hdewM7ldM5QSqAxTrHF1nu7RMmbDZjKDzgaYRyxUXfAQVCf2mOGd+pCiWzCgfeV4cIqA3PbV+Cmo+LROqIObTc3wm+YFv0qD6/wb9nbW5OBfDTe1RnLxRHGw1BYDrwUrHgZRZu9JGOJb4cHpJE5OfKc1HoOkXVQgEDJy+yHvvg3keWJKABr6EE+JPusqY3JhOdKcnZMZOnwYp1dJqEr9eyMdlMP++b3/g7jyV/Hk0mRg8TAQUZRTJ7bcYmCE9YvU2LEueawl+wUUpV5QmB59GVrwX2Z0TaoyivPjPKxzgTnMaO8QVJqSPT5c584t94Q6LaX8WKA9ab8BbG4VQ7dMRsEBtKrC8RXGgAOlj1KOQl90OjMeQz1xhutf5+bO7OEWPxA0NEAoDtGTUCQXAKwUdK/lkdHaMvlvyuj/R7N69jtoJncQQiKo+DeuUrE+Bu8JIxuqbraAKRzat81mTDgVTsrRb4VxSsH5sl/z6Ab5dK/PT2VDw6fADxjMRjFOxzaEazWtN26paPnPYbGfhDKzON2XW6u4zJap382GL6jINmnTYunZ7ulBTb3nB1Np+AqFcl500kbt0a0hfXAZ08ZZPILzVIoeYf5t9PGXpCoU3jH91jGAE=.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1oYWlrdS01LjUtMjAyNjEwMDd8Y2xhdWRlLW9uLWF3cyJ9",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_01CUtE4tvkbt5UAv7V8xnseC",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "ticket_type": "question",
+      "decision": "answered",
+      "reply": "Hi Lena, coaching call recordings are in the members area under Calls. Log in at https://kitebridge.example/login with your payment email and the code we send you, then open Calls from the top menu. The weekly coaching call is part of Pro plans. Starter members get one live Q&A call a month instead. You can read more on the help page: https://kitebridge.example/help/coaching-call. I cannot see your account, so I cannot confirm your plan from here. Kitebridge Support",
+      "sources": [
+       "knowledge/weekly-coaching-call.md (https://kitebridge.example/help/coaching-call)",
+       "knowledge/log-in-and-members-area.md (https://kitebridge.example/help/log-in)"
+      ],
+      "note_for_team": "Customer asked for last week's coaching call recording. Help file says recordings appear under Calls within 24 hours of the call. I could not confirm whether an older recording is still available, or the customer's plan. Check if she is on Pro if she cannot find it."
+     },
+     "name": "write_reply",
+     "type": "tool_use"
+    }
+   ],
+   "model": "anthropic/claude-haiku-5.5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "tool_use",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 3145,
+    "output_tokens": 657,
+    "output_tokens_details": {
+     "thinking_tokens": 209
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard",
+    "cost": 0.000643,
+    "is_byok": false,
+    "cost_details": {
+     "upstream_inference_cost": 0.000643,
+     "upstream_inference_prompt_cost": 0.0003145,
+     "upstream_inference_completions_cost": 0.0003285
+    }
+   },
+   "context_management": null,
+   "provider": "Claude Platform on AWS"
+  },
+  "latency": 4.52,
+  "request_id": "gen-1791882375-JzhikRsWkNhO2yTSb6jX"
+ }
+]

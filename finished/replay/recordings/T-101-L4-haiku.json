@@ -1,0 +1,199 @@
+[
+ {
+  "request_key": "04003418baed321e",
+  "response": {
+   "id": "msg_011CfyyEaoxHeMmvninwaasi",
+   "container": null,
+   "content": [
+    {
+     "id": "toolu_01FsXrSjVRWRgF47Z4UaueFf",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "ticket_type": "access",
+      "reason": "Paid but cannot enter members area; welcome link expired."
+     },
+     "name": "sort_ticket",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_01Q6s5KLVPbEZyDC1wQLeJYC",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {},
+     "name": "find_customer",
+     "type": "tool_use"
+    }
+   ],
+   "model": "anthropic/claude-haiku-5.5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "tool_use",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 2250,
+    "output_tokens": 118,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard",
+    "cost": 0.000284,
+    "is_byok": false,
+    "cost_details": {
+     "upstream_inference_cost": 0.000284,
+     "upstream_inference_prompt_cost": 0.000225,
+     "upstream_inference_completions_cost": 5.9e-05
+    }
+   },
+   "context_management": null,
+   "provider": "Claude Platform on AWS"
+  },
+  "latency": 1.79,
+  "request_id": "gen-1791882367-FFMEu5K6OXmLN7FYZAwS"
+ },
+ {
+  "request_key": "13f6f5a3cb6e73c2",
+  "response": {
+   "id": "msg_011CfyyEi5WKHx5aBJc2e8Y1",
+   "container": null,
+   "content": [
+    {
+     "signature": "CAQShgYKEAgSGAI4AUIIdGhpbmtpbmcSDBxnuyoVsiEkpMHl5RoMs0uwixkJMxv7zH7UIjDHyR8aVn9JeTivtX9NjiFtzfkK9t3Wliz9ATdG8Zmp11TzrVomX06P56NQgyJePVQqowVPYPQcYC6StJhWZS8ch5wwzUXkJY/A13VREVcB1fwA8Ye1uPESxXa/FmqgDCH94B0fiiO+GHcezRE0tz7ZdLIPHhwfqNGo9ztSI23/v0zNlgr23afHnOPyUAkH3KplFK+hgPbq0XBMpFEz1dceUQiuVyPH9V8/pBhOcmhtg8vwKOT/qn683daU5PVVknAHZsbXF1rVVeMK7vRzZoROafPe+6D8+iCX29E9+zyq0kp4CdXH9eTBhdRbvAY/zWDKQkTap5hiSMduhR+ZvVdXwR/GZBxPGMZuphomH6uDX5MobdUYTId5KUsFmc3t3BQAuTKo7jZb3BLoQbTqopxQv2qiFNFj5DkHFFXGJya1apIP5x+Y5aXlrY6fiEi8yFVt3Whq9SY4Rh37vG/9QI3zpsr0fBDR2BxxjF7VZ7x5AXX2x4pRc7ATY+RKYiQv0Z6oPHMt/2lb4LsXZWoh1/I8OhkhHTvzDL1a8OLCnO8ejIgs8TytwFFH/b1rDLA1tAbKIHA9PqTcBSXy+TMd2aegBZZqR3o7i0w86pwsV645QLM31r5kBQkjOmkeszgcFdqDQHCCj5nCGki3CpL3x7YxeoZSgnU3K5AKhHh282KX8mUVSPX0VlIX1jfD75XFJTggMvpXD1Vai4nDJEzTkNRljqrWzu+ukrLM3wDV926Quz61w3Z+JVFF4zTHrGDgtALh7gZbQv1A++B/jVGnP8SwQB5HGRS1uN3pWsuxgaoz51a4f6y4Nu3VbJi4KpQC30asO4F4lGUG6eAQvtw3vdKXPLgP/iXpV0FsmpfEpD6kzfDqPVsMfx+I7DFDBPbP1PMSpNi/G8v2qpeIh1UfOrvqxeU5At8Bboz8UibIYisHu9UYPZwgtfm+pbxJQYWO1jmxrqDgJawYAQ==.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1oYWlrdS01LjUtMjAyNjEwMDd8Y2xhdWRlLW9uLWF3cyJ9",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_014DKQ4avjBjL3AQyXk4nAkC",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {},
+     "name": "verify_identity",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_01KhjSnWmqnqgQRShFMdGJpf",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "question": "welcome link expired members area access"
+     },
+     "name": "search_knowledge",
+     "type": "tool_use"
+    }
+   ],
+   "model": "anthropic/claude-haiku-5.5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "tool_use",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 2571,
+    "output_tokens": 129,
+    "output_tokens_details": {
+     "thinking_tokens": 45
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard",
+    "cost": 0.0003216,
+    "is_byok": false,
+    "cost_details": {
+     "upstream_inference_cost": 0.0003216,
+     "upstream_inference_prompt_cost": 0.0002571,
+     "upstream_inference_completions_cost": 6.45e-05
+    }
+   },
+   "context_management": null,
+   "provider": "Claude Platform on AWS"
+  },
+  "latency": 1.7,
+  "request_id": "gen-1791882369-fEb2xDXxVOoOK3NGYuxH"
+ },
+ {
+  "request_key": "76521c540739ef57",
+  "response": {
+   "id": "msg_011CfyyEqVk9rjTdDk4g8zfi",
+   "container": null,
+   "content": [
+    {
+     "signature": "CAQSpgcKEAgSGAI4AUIIdGhpbmtpbmcSDDtBNJrUSxlg/pM7HxoMN2Z78zFXIPYBaLJ9IjBIoDpURiXHZJ1uNkAEyZlR5a4KNMexynyaIXuuRsZt2i7AzVkD6LFTETlALreYYuwqwwZMBm4Mlpoo/T6SH/bUc41K8SOC7p5u9ay955AnSCdXjMiPrlQNSh/wWTAfKthlqnF8tVftetXHNdDnw4Aq9Px0J1HjR01R/QvwRVao9GWas54/C9/cpcRH/ADXSdz8w3979nLLFyeGRlGNdBz3qRXKYMgWNWjsCYSDn4+aCMoUlj14jhHVxAUBpAsx8gwvlUr44tmKMKerCSndhGvjWzSspj/x4Q5+5bYrOni8jv1atoJ6aJXD7LFRp3lj2wFFl5q8sC8gTgomY6oa/0PgJsdSBgzdpod0Z4+xIO28QmVYX4Q5g5uf2fX5A8bUqq0Kf8/ZJP7V2YTsdT/+79Awjg6icb1WLKUjhCkecKwJSdB5BNexm/RQncf3rVPjMbLWfCYvCiL6eB59nGebVb18MK9n0vmfenz7xJm0VmMLbvX1O6PrzTC1/tU65i+/GQz34ilgXqFPWsDklxOovO/ycxQ7ihcCijw1ZzUQwm1XWIe34fac68cT9Xke29/7A/8KVDE2oTujAXG4uA0Ov4pjKqqGXb3Mm/wiD2q7DtP5WBE3uZfQTzaViVQs8dSDdSh9uLq391/SIuUqPqCgWdzVz297vv7gb9CjNUOxfnX9GLboeFU/fY+LFQmNi8ewg3p5fdWokag1F2fNB3l+KwnTkdtvKagiKFFFxyBfwXE0cLbQBvsH0hmvFzz3DsAj0OBIo+bqgTKZTYs7XDR1g1BlLFAxh8ldircJZqYXuXc+Te1pzBYNNtccqiOG046ztd8DO+6OmGgp03RW5N1csN7Az27pakLoaqu22TrNfMJN7VM4D/UoTWL4enPfBJpppxvKhjVbCN6fjxSWLWg/S9rW18zgQgh7w3uyEb/LnJaYk49sW7uk1WFQRNTQqG4BSvgh8/hiKLcwjviuyMDFWkVBXJoQwijgPMvx8jylIbt8Cld1ZbyrBbMg1jh1p0JPHKvlugIpfjCzTkMiJz4n9H8SuFt0hErm1c8xAxOT9DjmxkRP5t1pw0hNFslroVV9vD3DVuri0AkWVVq4EoA381uLpY0UAKa2S8j7xLKcpfaxoYoawKKVAVac7dVF4y8G6ET1HfMVb/gr/ip2VrFyQHvkPDFzy5ovGAE=.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1oYWlrdS01LjUtMjAyNjEwMDd8Y2xhdWRlLW9uLWF3cyJ9",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_01P8ghQ8jhQpaQmTN1GG43iu",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "ticket_type": "access",
+      "decision": "needs_person",
+      "reply": "Hi Hana, thanks for your message, and I'm sorry you can't get in yet. Your account is active and your payment is on file. I can't send a new access link myself, so a person from our team will reply within one working day with a new link. Once you have it, please use only the newest link, because older links stop working. You can read more on our help page: https://kitebridge.example/help/access-link\n\nKitebridge Support",
+      "sources": [
+       "https://kitebridge.example/help/access-link"
+      ],
+      "note_for_team": "Hana Suzuki (Starter Yearly, active, paid 9 Oct 2026). Identity verified by sender address. Welcome link expired. Per access-link help file, support can send a new link (from hello@kitebridge.example, works 7 days), but I have no tool to send links. Please send a new link and use the newest one only."
+     },
+     "name": "write_reply",
+     "type": "tool_use"
+    }
+   ],
+   "model": "anthropic/claude-haiku-5.5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "tool_use",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 3525,
+    "output_tokens": 460,
+    "output_tokens_details": {
+     "thinking_tokens": 67
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard",
+    "cost": 0.0005825,
+    "is_byok": false,
+    "cost_details": {
+     "upstream_inference_cost": 0.0005825,
+     "upstream_inference_prompt_cost": 0.0003525,
+     "upstream_inference_completions_cost": 0.00023
+    }
+   },
+   "context_management": null,
+   "provider": "Claude Platform on AWS"
+  },
+  "latency": 3.29,
+  "request_id": "gen-1791882370-zj7Dh9z48AqiDX1LuJhF"
+ }
+]

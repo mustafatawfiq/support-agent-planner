@@ -1,0 +1,77 @@
+[
+ {
+  "request_key": "3165b703518eaac1",
+  "response": {
+   "id": "msg_011CfyyL73H2N8fUpyYxak4W",
+   "container": null,
+   "content": [
+    {
+     "signature": "CAQS7AkKEAgSGAI4AUIIdGhpbmtpbmcSDAsQ6SNsvb2E7eGXDBoMC8r36IjtQ2vbaUKfIjCKuXefuh6W5CsOcvcO1E4yVgjM+rTeY6NSToPaD5pCBL0T8moyM07qIn5E1SM2VeMqiQmV6DfwPXVRS4h03+Od0KUar3Hrqr20o3Gqn+2svi0EhEzKXaK2BNTqPY5vb9V1kujNy5b8nvd5zukwzK35P0Dl0FwxA1VejCTEncshD0h6/8i3ubOFYTYrV1uPdsmxtacsknAYD5pBC+BMnRqDEaTlDtRWFmyVzB/erf3rhd9+ln9V+k519nZl9yCeZCVH34Gf8mJYjOUM0nN/BtJq8pUXfTLaCSMfnVhpZ3l0YAP6Kve60q7nEHazI7ikCyroASkiFYud6Qln5t/sz41PHsgy0fKOcTuJVn/WmINIUUDFJkTCXY4gq8DODy8KjnUnkhogn2GoQD+9sZBpZoDASA+XhozTNzuwG08nQENBA8mSryZ61O9tjH31C1U188Q6KwE67mleUNfQSe8R5I8I6RawU8wFvk7UvXirK+HrqeEyqXTNKNdU3jg3pM/Q3c5TKh41DJHMjGcVUwiIN140ye3+R5q85iiJOoZZZIrLcic9KtWqDAVFlngRVTYf6CaLmwjwI/u5P0y0M6T3Y6CkCujVhRDdSHZYWvcv9LOgjrWzudzUHTdrT8d7lpbdUfhAPv67ltOHDmaMLuWKh79uhXlneixmO4mneIZ1JlM11UnSa6guV1uzf2Ueenwvq1nuRsO0zsXxkketUUXeeWuxmugiFF24zkoukzkleOb77zVyd/Cx0CJcM7QWURH8C5iy8YIbHxxOYwHeSb8HDvgjLjxi0IbpPznwl3YDwicvEgCAnYI0yPFLLUP4spUWMl0YP4e44zshwBelxuEftfwL8p4e2g0TIfewm5suUfj+U+w7cE13uWKkURyJ1lAv4RNW2HLfG84+pAVBeoakOa3vzCkjA++5wNhdxH9GH0E+09df2YD5uGxErH2g5jlrZDsbG/OGFQkIhrx4OJbQyJeXkulEpmEIITf/s9LC96pA4HXT1aoCH/2e00Dsdi6Yryfyp0hwxoYXTQLpDa5SlrpPdSCI+lc1pfkmfG51i6feDKDrwdTIFtmCkvlQnEBLMMTZHOz08U5FtwukKa8P1FCYH3kSyjjs7+8/l/Ce0GUB9HgjyzsCtCxnp+pt/E1oDxzk0ochalrbe7bxnixmuLdDhIOOO18XlJHk+hm4kpgXhCEHhFXuIjQogv9nKixqfzqrnwI1rd/7hZiOCv8NPoHZq10On6cLQD67RL1iSPOEzh6RRtVcQSRNuJCtBiOAM+O8WpnIPy6ohjr7+Y6fHVwrgwZIImELRePfYSl8tkFoiKWVkPyE0KLn4bQhXAOSTOtiNN2T68Qu3f4x0I7HcRtJ/nJhtU2vyyKDu3+qAzZXKwJs3a63sLFg1Ed+hbvURZ+7mvBV70Qaq/K70A+CJnX57H4VmkGE+jBskAB4PfrYAQY9gEepwjhvQz5uDySMRPExiqGuxbt+0LZMiUq0EcxT+yjVk12jUOGykGmARcouPHZw7Rtg5aRmEiw9R7LXIoALgOZhZ9NMxhmDUESRlwR7GTgUwhc9Vmcnto4jj/ouaKD8Czs5+73EWteZUS39Ngzv6+sxIgxlD+/b6V8YAQ==.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1oYWlrdS01LjUtMjAyNjEwMDd8Y2xhdWRlLW9uLWF3cyJ9",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_01Bn5wq2X2A6T1VfhjbEy5Bg",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "ticket_type": "other",
+      "reason": "Customer asks to speak with a manager and mentions a bank dispute. This is an escalation to a person, not a how-to or a specific refund request."
+     },
+     "name": "sort_ticket",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_01V469QnDx4ka6LS5gDRPbNM",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "ticket_type": "other",
+      "decision": "needs_person",
+      "reply": "Hi Tom, I am sorry you have had to write more than once this week. I am an AI support agent, and I cannot arrange a call with a manager. A person from our team will reply to you within one working day. Thank you for your patience, Tom.\n\nKitebridge Support",
+      "sources": [],
+      "note_for_team": "Tom Becker (T-109), sent 2026-10-18 11:22. Third contact this week with no reply. He asks for a manager today and says he will dispute a charge with his bank. He did not name the charge or ask for a refund. I did not look up his account or any charges. Please check previous tickets and the charge he means. Today is Sunday, so a reply may wait until the next working day."
+     },
+     "name": "write_reply",
+     "type": "tool_use"
+    }
+   ],
+   "model": "anthropic/claude-haiku-5.5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "tool_use",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 2719,
+    "output_tokens": 689,
+    "output_tokens_details": {
+     "thinking_tokens": 219
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard",
+    "cost": 0.0006164,
+    "is_byok": false,
+    "cost_details": {
+     "upstream_inference_cost": 0.0006164,
+     "upstream_inference_prompt_cost": 0.0002719,
+     "upstream_inference_completions_cost": 0.0003445
+    }
+   },
+   "context_management": null,
+   "provider": "Claude Platform on AWS"
+  },
+  "latency": 4.15,
+  "request_id": "gen-1791882442-yvWQWV6lzmbz5fXZ3oaJ"
+ }
+]

@@ -1,0 +1,129 @@
+[
+ {
+  "request_key": "64a766198bc15402",
+  "response": {
+   "id": "msg_011CfyyLpvvy1YWLAoTg5pVJ",
+   "container": null,
+   "content": [
+    {
+     "id": "toolu_01NACc2ST3zaJnt1R29LEapd",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "ticket_type": "refund",
+      "reason": "Customer asks for a refund of their last payment."
+     },
+     "name": "sort_ticket",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_01YUTbZRrofGHakd65N1VZXD",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {},
+     "name": "find_customer",
+     "type": "tool_use"
+    }
+   ],
+   "model": "anthropic/claude-haiku-5.5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "tool_use",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 3037,
+    "output_tokens": 115,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard",
+    "cost": 0.0003612,
+    "is_byok": false,
+    "cost_details": {
+     "upstream_inference_cost": 0.0003612,
+     "upstream_inference_prompt_cost": 0.0003037,
+     "upstream_inference_completions_cost": 5.75e-05
+    }
+   },
+   "context_management": null,
+   "provider": "Claude Platform on AWS"
+  },
+  "latency": 1.57,
+  "request_id": "gen-1791882452-TwIajT8XMMUiEBbt5fVU"
+ },
+ {
+  "request_key": "c10827575d037dd7",
+  "response": {
+   "id": "msg_011CfyyLw8jugatFdopVChXc",
+   "container": null,
+   "content": [
+    {
+     "signature": "CAQStQcKEAgSGAI4AUIIdGhpbmtpbmcSDAGOgfNa7UNwB3Z+mxoMHv/1keyQPuX0fzVSIjCTjQchs7BK8y5neOv3Ix5t7P1LU8t+voBBj2hTCEPrurPH1mTr6VUpPTJvPIuvRboq0galFQs8CWShoKa5kgMlf0I8/9eV1SUI0lnv9mE4UGyziCT8CJKt1fjKE47vD4KkygBuOdUb5Vr0mxHfnuxQG7chvhbfCB9UPsjtkbumk0WyINWVX+OIgPdmjwVz8LePC2NqfQK81+TELQgvAxnCbfULUkmcXzBC6vaeXhWiDjSeLWXP+bFlmMs2m5daGs1l/N7H2o1Exy23eYmf3PEFy2p5qJw79ops5Z4AXtA8ndukgj1gdCB6aluRUrViXuInwDfhFjJLRm71Bt9xD6OMR5k/w2rWo3SCXMBjQwAAIH+5LfbQUf1SeB5UE5d911commZ+qlh5snMNQyjHnazdlnd8e8mBh/6HalE6q13f9Wz+q8QKLta6QlPhjHgPaP5pHWBXVxVpkItnsCS8nONxc5T7GU33uemorsvBUqLpUwWzoJNNTpNH1OmMJln7LSGIbDfVipA1vcoRKf7pF+2VR5ZKmUuKia48jwrKomwKhrVSsKA1nXtVZEZB6L/ZYMXeGsV9kZ776+/7eT1g+QqGLp7fMTww/eolMXfalvnfLrJqiD74QuFvYlz9egQ84TC7gFWIzDbwA5Op34oCyTMdpBila2RD1QHwWGAqTxoRlSve3ZW7Q8GPLDDQV0ol9iZDfE3PUHLP6Mi/uz+yW8lNftkaIKh9cKd31hzuCECUisQesZAcAKqp56uhU2kgR9su7aEAXsGNaHn/wsdwnzczCLywI9jPAP9nce6U8kL0JkZNbuxL/kv3LB8l65qM585hrhJ1Kirm8E59+YZF98MIzHyM4jEsDuVUfKm1zjEfB5sGyYY353lbLBY12PJu553zMFvcxbSinNBupG2dwoJRQK98djGHaFyEQHFTM8MC+lvODBOTX9Z0n4dGDzmBWOnFMy/3eeUK6IJ6G0/ePB9qtyQ74sYsY72Uj9dpRtoQjSQh74N/Azk/EWsC4aeA/JmdAut42W/sKiIvBhN51kgczerDQcZ4cnVzvCo1TKp0BWQWEdqBzvyIILfcLZlyWLGsA/mNfHBe6OGmX2c5dNS09EOiXLIKScT/TVGnGG+9+BQ6o0WXHZcx0mSSuhjaHUuInjT+6G2FTsYB7AaGnQjGEnMi1kM4pVk5F3jBMwF+dR7A6jxPGAE=.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1oYWlrdS01LjUtMjAyNjEwMDd8Y2xhdWRlLW9uLWF3cyJ9",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_01CnCz1wx215HccBZQ4FEipm",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "ticket_type": "refund",
+      "decision": "answered",
+      "reply": "Hi Sam, thanks for getting in touch. We could not find an account for the email address this message came from, so we cannot look at your payment yet. Please write to us again from the email address on your Kitebridge account, and include the refund request. Once we can match your account, we will check your refund options.\n\nKitebridge Support",
+      "sources": [],
+      "note_for_team": "Sender sam.ortiz.work@example.net has no account. Did not verify identity or check any other address. The message gave sam.ortiz@example.com as the account email, but I did not look it up, as the rule requires. Ask the customer to write from the account email."
+     },
+     "name": "write_reply",
+     "type": "tool_use"
+    }
+   ],
+   "model": "anthropic/claude-haiku-5.5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "tool_use",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 3255,
+    "output_tokens": 413,
+    "output_tokens_details": {
+     "thinking_tokens": 90
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard",
+    "cost": 0.000532,
+    "is_byok": false,
+    "cost_details": {
+     "upstream_inference_cost": 0.000532,
+     "upstream_inference_prompt_cost": 0.0003255,
+     "upstream_inference_completions_cost": 0.0002065
+    }
+   },
+   "context_management": null,
+   "provider": "Claude Platform on AWS"
+  },
+  "latency": 2.72,
+  "request_id": "gen-1791882453-hYUrUnyVfsjnh814eUJf"
+ }
+]

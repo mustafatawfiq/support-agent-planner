@@ -1,0 +1,139 @@
+[
+ {
+  "request_key": "8502af3197baf6d9",
+  "response": {
+   "id": "msg_011CfyyM93MdT4Nyrxzq14Ab",
+   "container": null,
+   "content": [
+    {
+     "signature": "CAQSxAYKEAgSGAI4AUIIdGhpbmtpbmcSDHCspMJUHtjqQYnZBhoMDyvlHrPKesFTgGzxIjC2GLFPelqeuc7H4Cpw12z+N3g/Jr70UmP0OJcBVnZkO+26FzO1lbh0mvU/fxEHquUq4QUc6nLE5GUpN5oEMUpmFAxSFuPKeUzWoJIEqK6MyXfTMn56ck8EXwZonAvawKmA31nnFk2koIvlBbsSWec27Ip0vsld9YKx0/jKfZyZPIoMREITcFMZiJvCrPGLLjqiA+BQ76bt+ZHdLJ62XtFjDwcT/iqICZ8mZu25G6ajIK1ZbA//3hvllslnGMGCjb9DeyTp7BCyP7fmH+IgPdb1q5OwPikvAnqqotEI4wu651ZPMgjF00VsFi7ia7h0q3zB7AkZ6s/FgyAALcDnxe6it26ZugtVJZFHW4W5EVF9X9DZ6dTOhI1ab2/hAZRxbUao0bM+TxBWm/4ctmxxMre5kNDZxa8Tcxr0dFhZme1PHB95woKO+kt595SG3ZQJ0dq06ftfkkOX1pbAfTx7qBW/oa7R+NGpJI6ne8+qd/JqOJelszK9dsIBAxO8jXJQsgYHFox9LpCo7P8PVTuNu9V0vj7Dh1B2kCfOp/T7QWD7C/5P8XDLr7J79AuceP53zxu6QaZDca/DqBaISZnmhBlTDn/gLUakLHYRp0Q2byMIsHfQS3fQurjQYEY/80eP+7Ztwj5SHEx0UkOqdIOx46JTDe3IzISuf10dDRfzGShQajdQGcDge1XYgbTRS3rq72RkcUk+Bo0gE6WNDieQRMCcI2I1LMzeIYgDnrQ6H6mZ8XmQ4gXiXfFBGMwgH7yQHvFPrCZS3jxenx4mOd9WzCLg3cr3PBySv51h8kXvP6qH7pkvaqGRmVVZPElPRXdjgd8h29l5rwRGjqCTc2N+C/D8XDlZbmYRYZ2k3PJpjxlZvC/mfsLmDrGdHnnQrtcoQUGgWluZHFjWTBQiTvz5FXzJRqbRRYKYxWIaxtYCxreB/EzGv4EfijG0Hwl8Wb9dz/i2TtEtoSwmXVaPw4FQq9ShhDhU3PyAs05OGXyHAB1vZfVsVEmvoVvEYMIzIavvZZz4pFi5cKcQfdBJh8FCMIABRF3NKRgB.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1oYWlrdS01LjUtMjAyNjEwMDd8Y2xhdWRlLW9uLWF3cyJ9",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_012qyYLe4vVURK54HFahs5X3",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "ticket_type": "access",
+      "reason": "Customer paid but cannot get into members area; welcome link expired."
+     },
+     "name": "sort_ticket",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_01UJCtBeSLRrznieXtD7UucH",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "question": "welcome email link expired cannot access members area"
+     },
+     "name": "search_knowledge",
+     "type": "tool_use"
+    }
+   ],
+   "model": "anthropic/claude-haiku-5.5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "tool_use",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 2066,
+    "output_tokens": 235,
+    "output_tokens_details": {
+     "thinking_tokens": 79
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard",
+    "cost": 0.0003241,
+    "is_byok": false,
+    "cost_details": {
+     "upstream_inference_cost": 0.0003241,
+     "upstream_inference_prompt_cost": 0.0002066,
+     "upstream_inference_completions_cost": 0.0001175
+    }
+   },
+   "context_management": null,
+   "provider": "Claude Platform on AWS"
+  },
+  "latency": 2.01,
+  "request_id": "gen-1791882456-E7Ub9DULDAKHMjRd2mHb"
+ },
+ {
+  "request_key": "5a585edaaef4226e",
+  "response": {
+   "id": "msg_011CfyyMHqC9JBsmRnj3PUdF",
+   "container": null,
+   "content": [
+    {
+     "signature": "CAQSmgkKEAgSGAI4AUIIdGhpbmtpbmcSDPABX4X0NPwLlaVqxBoM/QqYvMu56p+fCHNaIjBF9/hxdXA6XXiiF6q7HXJJ3FwWzw7bddxiqA2YO8Nv4dUUEe5Bo6T4lLQVNGiJxNAqtwj4qQyO+fwlwKiXakE35mq1NU/qh55sO/VusBSQWiHUVgA6QCR02CoZbtbPkYuuJGhbdu0oav2iLmifVbs0nLEJTp9cSs1WH0APq6pQf9Ufm2a1B3hlocGFnFkbHsjtT+PDUy4ebZx3QrjLpIt/38VRPv/shX1HNbPUaXjFlDeVszElQiqqeXFfEEHrXkkHS6ApxXq7f9jKhQ9viR2hnSfNBVtWbI5qNzgjnlvIVnm99Ygeh3YjoThp8NjV9ooxIbrjCE3feAz6adIe1hSVkm0ejGis9oHwv1OrVCbqN1Gg/HUAUg/XJkTXzW1Q3+2Mcy4jNN68rHwCteFluwXQGUM+bkuCQIKo0yYTDXDd0VeraiVju0QseXMQ1oON/3mtjJ/gS3dXoBkHpf8C1kTacv951AZsr/bQ0wTLGUXqqKZ0ltNOu6g5xSZITWvBw08RGtnPu3H0MDQHk3PEFlNrjKkVley2veREtfjCFlN3uvbrYKidKk8AV/+OvQ/SohuKNFfTFGrpb6yxT/8YMT0qrP6C2PRZM4j2kfTcNa95C2oQqmY+P9n6+Eehmii9bkQadRwH7Lx7YIzJb9d7xcXHdzmYZC5Lc75y5Vz7oANNkOVV2y+KMU+ut5h23m4e9gvqSDcZhzEP7R0QmcygQ+byf88+KfKzOp+Nc6xW15cuRAppUIBWSgI/vR1U0cuypRmah+hgGWa+dYzJvj7Ca55xV3bPc20ObtZPNiy5R4oQBV/PJjW/tKhFuSp7ULvIYlejQNv451NF9+WsV5/fui2/VX9dEbxGGE9XYgPLATcjiTksm7qgOw+lXGB3puCYkjsYtei9qxdMUo8OdITZx7TQ3Bx6xvJNgZkktdJublPjommIMeZK9J3dzKYaC1wZ+7P104ARTUP+jzzThGzwLSYRExxTSaNapGrV5bQsrwenqFN2EYUh0g3bZxR5nuVdAzBOz15HmqAGo/2y9TV68+UjlEtXoYwN6GDNa2ZxM/nQvGqI2ojdIromTgXA3yEH8cT7F/rwuaWiP8oP97lxFX3T0O7qmKiNhBFgp37p5RQmoA7zEf14Hge4PSGDkixzXn61AFdNyHn9mURnlZyWsHAx7O9CL93JEPd7JNpsJxNONnHQKNswqRBFFk7qI1x3tcxpQYtgLYCNg4BWq529mO4cCm8qAD7kGkiY/kv4YWIVEyHjllL+8ETi9fmg/jf2P+PxsTYhOKH4ainP+h4ProrYCrO2/87U/hQDvGwmrYff3ZPLRY2sklG9+3nk9O7ERBWiNeDNTV6/g3aX0H7O9Z5ogC0tMYeEi71uGTdCVTjL6HsvsuLFRxWhUntdmE/373dyKtk4sBIDbRVObqvUGAxYfoQY5uqXYCOC+U9fqg1AyfSG8xbfmWf10ybSNZMkj6bujydaKHn769oZNL2mGt51uQN/toBJb5K/HBgB.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1oYWlrdS01LjUtMjAyNjEwMDd8Y2xhdWRlLW9uLWF3cyJ9",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_01PiAWQVEfcAtnnr6YevQx4a",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "ticket_type": "access",
+      "decision": "needs_person",
+      "reply": "Hi Hana, thanks for your message, and sorry for the trouble getting in. The welcome link works for 7 days, and if it has expired, our team can send you a new one. I cannot see or change account details from here, so a person from the team will reply within one working day to send you a new link. You can read more on the help page: https://kitebridge.example/help/access-link. Kitebridge Support",
+      "sources": [
+       "knowledge/access-link-expired.md (https://kitebridge.example/help/access-link)",
+       "knowledge/log-in-and-members-area.md (https://kitebridge.example/help/log-in)"
+      ],
+      "note_for_team": "Paid customer, welcome link expired. Support must send a new link (from hello@kitebridge.example, valid 7 days, older links stop working). I could not check the account or send the link. Please confirm payment and send the newest link."
+     },
+     "name": "write_reply",
+     "type": "tool_use"
+    }
+   ],
+   "model": "anthropic/claude-haiku-5.5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "tool_use",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 3110,
+    "output_tokens": 548,
+    "output_tokens_details": {
+     "thinking_tokens": 145
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard",
+    "cost": 0.000585,
+    "is_byok": false,
+    "cost_details": {
+     "upstream_inference_cost": 0.000585,
+     "upstream_inference_prompt_cost": 0.000311,
+     "upstream_inference_completions_cost": 0.000274
+    }
+   },
+   "context_management": null,
+   "provider": "Claude Platform on AWS"
+  },
+  "latency": 3.39,
+  "request_id": "gen-1791882458-BMBytLz9cc8cOCbuWLxy"
+ }
+]

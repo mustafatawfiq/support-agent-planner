@@ -1,0 +1,32 @@
+# Agent settings. Plain "name: value" lines. Lines starting with # are notes.
+
+# The business (used in replies and links)
+business_name: ____
+review_link: ____               # where a customer asks a person to look again at a "no"
+sign_off: ____                  # how replies end, the same as in instructions.md
+access_email_from: ____         # only if send_access_link is on; else delete this line
+access_link_valid_days: ____    # only if send_access_link is on: how many days a new link works
+
+# L2 Agent
+model: haiku                    # a model name from app/llm.py: haiku or sonnet
+effort: low                     # low, medium or high: how hard the model thinks
+max_steps_per_ticket: 10        # stops a confused agent from looping
+max_cost_per_ticket_usd: 0.20   # stops a ticket that costs too much; it goes to a person
+test_date: ____                 # the tests use this date as "today", so date rules give the same answer every run
+timeout_seconds: 30             # one model call waits this long at most
+retries: 1
+
+# L4 Customer data: columns the agent must never see (customer_id, email and internal_note are always hidden)
+never_show_fields:
+
+# L6 Hand-off: what the customer hears when a person takes over
+person_reply_time: ____         # for example: within one working day
+person_reply_time_urgent: ____  # for urgent tickets, for example: today. The same as above if there is no faster lane
+
+# L5 Actions: the actions the agent may use. Delete the ones you do not have.
+# Every action writes a row for a person until you connect it. None of them moves money.
+actions_on:
+  - open_request                # a request for a person: plan change, cancellation, anything it may not do alone
+  - check_refund_eligibility    # the refund rule in code, with the numbers from policies/refund-policy.md
+  - open_refund_request         # a refund request a person approves
+  - send_access_link            # a new login link, when the access column says link_expired or link_not_used

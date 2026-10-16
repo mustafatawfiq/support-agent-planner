@@ -1,0 +1,134 @@
+[
+ {
+  "request_key": "5628db69f821ce4f",
+  "response": {
+   "id": "msg_011CfyyL4xG1eQGPUbnvJaD4",
+   "container": null,
+   "content": [
+    {
+     "signature": "CAQStgoKEAgSGAI4AUIIdGhpbmtpbmcSDMDqQsnxY8sWzKjBYhoMC7hdPgNoW3HOAKCvIjAt602pgjKUsh8J9E1AssmfIcL3UtcqIa2bS8EN5yqBQa+sLTuOu1CDYX6OXug+Zv0q0wkRFQqeWI3xcPAt6ZIeG9DxBQ0Hqjb5TiELIw+RoQ0oHGN66GLDmK+jsTpcet+cRekWYkmKLay+FO1+WYJ1L7MaATUe1u1Q8i8Bluy6NOhkrDD8bf4M946ABiH31t8IuX6GjFYkjYKKorm5aNpdFWu8hpEW5IQ8/veikzxaFyrP/D4elEudKLQJQF6t8mX3K5sLvXDE0PYkiRvMehvKu65zq2k5enWoP2842hH6A0ioNyp62WS+Ewk7o6QpI1UYbAL7VlvIKsPnm4OJhkcVwZnUkaYaOpOzURPi7B893OtoKVIwsQcKdid/Uu5bIULcZuCLh5/Kb8PN3EGyjS4CXUa8eax72W8Zz3ycDgSQSx4UE5PNCZwGgrNzM3AXkZgmWlXWbWa5+6LA6g+AZ1Q/99jmNj2SGMFx6B9+pnR9TtPjo12LiwCfYj3F0Gn8x0KCI5OsbNjfrpamuiLdB4DstqI87C3OLSIDZrGME73IGD8K+xrL03NZAa0M7uSYOQPvLRJE1o/Bxk2A8PMo7hvpMrnMfGjbYoyPLoAf7rO1JbMgwKYpZ2c4mYbMU1LYu4AEmn4zdeqeQ/fTP2QkicdAaU3WB1UWBMeMbalRPeZYTzZ/xZjc725l86o1xCEgtY6pWdAwPN7IBECiWZ+YEwc/XDPNsNlvvuLXxZEjvgpJ1yl95P+x1UqoyTIras7nKY+wGWcdPa2WHuEyOTwIHMhHcRJt301PfWTz1C/o95DOlEJMtjrem8bNDAiQmJ9T27VvCaVTbaCfDn/iI+5AdLuVEKv5bgD7K8jASvHE5cvlEawZnwWo1C5NeA/usC/9o34CcZ5m0XBE1PC7dYOpkFUpr1w9dH3gLdrId5ZuLreRJVbuVOvYZ3Lanse5fLobz9D8Fc3aAFCPMmDBdNTNUV4Mu/8tGBVttGbO2pCEEIIPfQ0Rp45iNnUdFOqLsoC3tQ7s54OX4rIS2L3VcKgXMF+epS3/iNv5G+KV32rmkid8jkjln52lZC/tnmmDnQvi2Wdp8FKu/M/7GmLgiM/FbUkQdHVGfiN/uIxQswgrysij57/JtZPIkT6M8A5EH8lFB1blpJykTZzNka0Iy+bMuEixUitskmf66uxMjNYJEAsya/+lXTiXkGu2+PJWmMR8dRUkPGLZ4wsNT+Mt9rTNp1sfmVmEn/rZ1X57OzPWvqE+bFmB0W0y7hoUvupF65Us1WGy+ubpNywhmijpL9+THuCv1M4F/G7p4t1QKHhoCiBsCRp0hrABPGdwyz0Ey9gz4E5h9PQUX8UKX/9bAHXWtouAG8lNKlwzn8d6/N+hLRKHm/Eadcbl12JH7Rfxaphk7mA7RwevYdYB2rfPeod90PRuKDc+gEmMuEvPzcmcyTj3hOvurh7pPYCbHmXrknXPRFSR3Wut4K705yy76vN+R8BwlUleljeMBzd3bBAbD/MMNgFSganmw6eFwQ2FByVeZ5AT7XoCCDPk7vtJYztPmp/yTDsyWJN60v8PPNDdOGFH2AITCP1GZ87qXXdb5b/v6FIng0dD68BSF0iW3u94VNNTwBHixYq80JWX9Y/bJ03CEBz5eBqn4Rf2LPuurRz0snEilyz1kJAQVHv084v2SuoXohOWx4+xBEqOP9PEqR6TrPxzfXf3vRgB.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1oYWlrdS01LjUtMjAyNjEwMDd8Y2xhdWRlLW9uLWF3cyJ9",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_01GjM45nkvwuVh66QE2hfbAs",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "ticket_type": "billing",
+      "reason": "Customer mentions disputing a charge with their bank and asks for a manager; no refund request stated."
+     },
+     "name": "sort_ticket",
+     "type": "tool_use"
+    },
+    {
+     "id": "toolu_017WhVZTjsaeLMyVfozK4wW5",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {},
+     "name": "find_customer",
+     "type": "tool_use"
+    }
+   ],
+   "model": "anthropic/claude-haiku-5.5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "tool_use",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 2249,
+    "output_tokens": 382,
+    "output_tokens_details": {
+     "thinking_tokens": 250
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard",
+    "cost": 0.0004159,
+    "is_byok": false,
+    "cost_details": {
+     "upstream_inference_cost": 0.0004159,
+     "upstream_inference_prompt_cost": 0.0002249,
+     "upstream_inference_completions_cost": 0.000191
+    }
+   },
+   "context_management": null,
+   "provider": "Claude Platform on AWS"
+  },
+  "latency": 3.45,
+  "request_id": "gen-1791882441-mjCXhfKo8ZYBV9C47aJM"
+ },
+ {
+  "request_key": "117dd1f9803505eb",
+  "response": {
+   "id": "msg_011CfyyLLQShyvToE596F9Nh",
+   "container": null,
+   "content": [
+    {
+     "signature": "CAQSqgcKEAgSGAI4AUIIdGhpbmtpbmcSDMRPtwQyjprV8we/3hoMGMgqvOcqvgVshNTzIjAsz5aec0oZUlQkNizmyiRv4L9AltAzHWgUgJ0LBgrRlDkKMF2eUrXOBeqKnixS/98qxwYksF8obrFRudLub09holX6rCNEBBLHyxeQYc7xmMAmBZSXu/j06O6HbNvY/X3BmUCNA4oXpQhLN5DiSVDHX52zozbszTuoxMhkJFHV92BJj6fbuqVTiLbVJrDsiIMZ23v/Pz9jD+J9Xgd/LOJc/xilsb8BQGk3SdKZqo1q9g6pU+QOFek/5CEbfgSeT8j5hYDJUxnCTEHqQE4z5Otax55reGupV+l5mqH6YMAmv3ti+ZgyEdxskV2wHrmNNXImVOVjXzHK9C08d36BwSSBL7FyYg8kdCPw3JfyFM066XDdkNI+1jajyp+QiNlcpF4Av/hPIl3Fjwp2dQbc2cA4hupgLN7zDFvyNyQLEugSQz9aimqrQjUafWxXwISQtIGnY87gShiaUINzYrfsOnECK63jIh4zuENBfFM+RyKVe+WvmohJ/Lfo2i+YHkEEIfc4DgR467qCaqA0koodIzYmiF1FHlqsDj7jCexZWxPxqOH4ug1qX6HkMzdUvkAfImw9UAM+2hi16F9wtjsOhz69DE93dJap902TIVbkSj2+EW+VG05U51ZdSRJ+jVTA501FgWNoPmRIUtZ+CZQomvKercAGlt7VtjsnuZExr+d0ZtFiZp/b1NDtB3CEc2s58BbyGnU8Dqko2XS/GGdMwSRX5srvulhSl05WQ10H5eN2dKbAhyb3BXtInCykiTWisqcgv9r4SwohmXmLfcDlEBfXQ0aSdfzk3wYWJvXEJUVUVx6yGudD8myWdxRbbmkjfRn6kOknrcptn7bwTf+1Z1I3Yx5vq/DulJlQ7F6Z386H2s36n2Is07UArqMnL9RuqYBZUZG1BYL2iEqVjYXUQlJqqRZlg0lIr5sKX3pYaOM4qZjq6duYGciTCRPtDIMHv8+UozUHZjIHipenpIG1YEcrqQDmI/UG6ER0IX2xGMbdTblevPz46Ors7Pi0vgx0B6+NyaN9QomL9OQVc8oiw8au3j8CEr6d9QQvCE382rdtS0nYR/LUmJheRpBwJeGSPbTXl7KMkkg5GnV2WZGv6AI7SxSFhsk93duSr2RJGtg7ZwkmfNYR59hh4fbAPRpo29u/UHZrItAbDTuVuKGXgyN6O0ihV9kY8cfsGBgB.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1oYWlrdS01LjUtMjAyNjEwMDd8Y2xhdWRlLW9uLWF3cyJ9",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_01B8dxiYwmHAs9xuVgUKUbsU",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "ticket_type": "billing",
+      "decision": "needs_person",
+      "reply": "Hi Tom, I am sorry you have had to write more than once without an answer. I have passed your message to a person on our team, who will reply within one working day. I cannot arrange a manager call myself, but your message has been flagged as urgent for them to review. Kitebridge Support",
+      "sources": [],
+      "note_for_team": "T-109, Tom Becker (active Starter Monthly, $29 last paid 3 Oct 2026). Customer asks for a manager today and threatens a bank chargeback dispute. Customer says he wrote earlier this week with no reply. Please check earlier messages and reply today if possible. Account has 1 refund in last 12 months (internal). Customer asked for no specific refund, so no action taken."
+     },
+     "name": "write_reply",
+     "type": "tool_use"
+    }
+   ],
+   "model": "anthropic/claude-haiku-5.5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "tool_use",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 2871,
+    "output_tokens": 444,
+    "output_tokens_details": {
+     "thinking_tokens": 80
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard",
+    "cost": 0.0005091,
+    "is_byok": false,
+    "cost_details": {
+     "upstream_inference_cost": 0.0005091,
+     "upstream_inference_prompt_cost": 0.0002871,
+     "upstream_inference_completions_cost": 0.000222
+    }
+   },
+   "context_management": null,
+   "provider": "Claude Platform on AWS"
+  },
+  "latency": 3.49,
+  "request_id": "gen-1791882445-9Hl56cnIknhDOpVlCkNA"
+ }
+]

@@ -1,0 +1,120 @@
+[
+ {
+  "request_key": "d7b6f981ab867c8d",
+  "response": {
+   "id": "msg_011CfyyJTdxn7hCyUSw1psHd",
+   "container": null,
+   "content": [
+    {
+     "signature": "CAQSqwYKEAgSGAI4AUIIdGhpbmtpbmcSDLaMwKvqsfJ7WOfx/xoMzTrTL+TMpBuhmSOAIjBwmbWDT6N7qK5Hf51UYdMfXCINxFSt9fpt3vxJHJ5pQKm3umdHYltDmT9YTo2d93kqyAXPaFB0oxYfzc1ibzcgxoXj6CqoNl8EbKCvWKSFMJ88gyB4oKLuncXsEjTDOzwv7PeQ1h559VHMqYQzP3K+WFKbJx4ek53AlBBfU+t7Hx9DusYy5+MNc9lyU4wi/cioqQvI3gGCIMsWAdkjKyLOf+e5iQWIAKqH0/Kd8xXDupD1BYMYKvKG9qEUuHqnck+4WN0rkiyxWjudm7Lh2qpO3N+kqQr81QAUhf8rJUAPtmyZmPKze+VAIiXrBkHq5U50D3T8cb08pec7V7QIBBvli1pa6uBgqjlujCmHkqdD6ydmPGlSorP2ii4Th/l+C9qtKghM41qMKrnWeNmDBKPIm3hJd/ZXk9xWDb37RSAL2uQ9gjaKjkBeCzZ4hqsTC3KVpaVl5rUk67KiD4jAVgxKcVW2wfCxdKh36/SeGHGypCdXdXlNLNd8oMmvAp9CYy1Nzd+/dKYs9tz20sVCd4hUdPhiu4o3FWhigKiYvMIr552eu8ehXm83skxbREZi6Rjv/eBU+cY9Sb+PV72c75S05aVpTyqu5pZuFVbhDKGvP1BgzxmS5sVvvnJWFKaiIqpsROTsaOpAnFU/bbDqjmP5s9K/SSqTr56zgC6RmzyURG6VX8ZEwcYppFBQ3ZG5OvSlmuGhD19GKxPqKJdUJXSU9kSWa+tTTZi6+iwY0NEjEHDyF6LefdI/Xo2AB0RR651sl10ZH35w+90K2vYjYINcUtWWIpjhZuBDMLpcNMKeAT6FOsLH94NyHtcv4hdgTVWhRx/zGGWQ4CBKCf/ADky1bHeu9jsbjY0lBj4V/QrqpuzeeUgTq1Yiy9T6ROUAA0SwV3MhZoaMDsttGaEVnSAVx3SrWDwsFX0zgJJ4lMT8fPBT6pfWcgjW45WHRBpjLwuwVu8zx34T1F3buWhXj4QG49llA+bE3O2zyHxoEvrPwE9Fj0sqPc+UucNxGAE=.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1oYWlrdS01LjUtMjAyNjEwMDd8Y2xhdWRlLW9uLWF3cyJ9",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_01874mrnD5G9ySfCqeeP9TK1",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "ticket_type": "upsell",
+      "reason": "Customer on Starter asks what Pro adds and how switching works."
+     },
+     "name": "sort_ticket",
+     "type": "tool_use"
+    }
+   ],
+   "model": "anthropic/claude-haiku-5.5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "tool_use",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 1909,
+    "output_tokens": 174,
+    "output_tokens_details": {
+     "thinking_tokens": 75
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard",
+    "cost": 0.0002779,
+    "is_byok": false,
+    "cost_details": {
+     "upstream_inference_cost": 0.0002779,
+     "upstream_inference_prompt_cost": 0.0001909,
+     "upstream_inference_completions_cost": 8.7e-05
+    }
+   },
+   "context_management": null,
+   "provider": "Claude Platform on AWS"
+  },
+  "latency": 2.51,
+  "request_id": "gen-1791882419-amZPYzK3w1kZhHw5J8y6"
+ },
+ {
+  "request_key": "dd9fe7c05dade954",
+  "response": {
+   "id": "msg_011CfyyJc5xbE5qDUwAFvNm8",
+   "container": null,
+   "content": [
+    {
+     "id": "toolu_016jqLUuw47LxYwaavkJoNc1",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "ticket_type": "upsell",
+      "decision": "needs_person",
+      "reply": "Hi Diego, thanks for asking about Pro. I cannot check the plan details or switching steps right now, so a person from our team will reply within one working day. Kitebridge Support",
+      "sources": [],
+      "note_for_team": "Upsell from Diego Romero (Starter plan). Asks what Pro includes and how switching works if done today (Sun 18 Oct 2026). I have no help files or plan data, so I could not check features, pricing or switching steps. Please reply with the facts."
+     },
+     "name": "write_reply",
+     "type": "tool_use"
+    }
+   ],
+   "model": "anthropic/claude-haiku-5.5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "tool_use",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 2098,
+    "output_tokens": 288,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard",
+    "cost": 0.0003538,
+    "is_byok": false,
+    "cost_details": {
+     "upstream_inference_cost": 0.0003538,
+     "upstream_inference_prompt_cost": 0.0002098,
+     "upstream_inference_completions_cost": 0.000144
+    }
+   },
+   "context_management": null,
+   "provider": "Claude Platform on AWS"
+  },
+  "latency": 2.3,
+  "request_id": "gen-1791882422-FnaamVhUOxcumh95H05W"
+ }
+]

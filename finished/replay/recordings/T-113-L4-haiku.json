@@ -1,0 +1,177 @@
+[
+ {
+  "request_key": "8a5960e9e2c1a489",
+  "response": {
+   "id": "msg_011CfyyM9AYajHBvGqRwBjp8",
+   "container": null,
+   "content": [
+    {
+     "signature": "CAQS5wcKEAgSGAI4AUIIdGhpbmtpbmcSDDBHL/zIT4Mr5IiEoBoMYanuAa0wIiYHR2x0IjAWjRtCpnEk5eqKnIoTjF+ZgRaGpPRuUvRCp01IIAGt2YHViQV3oHU26QVW/yprJ4YqhAewTZ57h+o0nyLMm0w+JCdB+unh93ckmyHEDv+X9OIP4I8W4iYhjWuxL5oW7i6RIfXFfZXHwpTK+EtM8G/LVrrHCiygnTXWUfSUByJxj4y8CW85DzjssJxEGunGyrgaxajeErovE6by5k+Q3bFogN5qdFCEnvIvUdw1JmEjfCcYaU6vlVhdYjmwIqrQL2FD6ZrLo0dmuAGn9NDlRglewSQdfnyjC4RDwgCNsgLrk1rsOI6eTjb+HR8ub5cVghOS7KiVWUwNfihV+WrAkjUnFdBc3Tz53x78+gDm8d2BjjBfdfHK+52NSvvul8GRpR9ba0hkeQJRmBlTYiwfiqx8A+lsLLcyDHGZZgBTmHDvc5KdqdEtHQn4lnSPGlPa5HjEEauGz6+hgGs1OfUFMzeO7gkkbByGz/0H9jczJlXacyo16JF8syvNYrC26NarLEcXXouBO/eclrQPxlcwLvCKMp6t4h0GrvEKe0Yn5hzSkZ4XioojbcVCQKZiv0Gxa5+POvKWxnZkZ4/RaeMQq1REanAx2jYao1wfhoiGijpnd7lV29dP2Eb3wBYh+sJ/Bno0jR3+/W0PLlfmOgSI2HS/fZs4GFHCCiwypiGh3mccHDiQNJ8RbmCqeaji6kJW6HOq25nfIwYZg4yLceTtEOMWC0cNnOA2LD23OOZQKLiC0RLwxuBFkRhjOA6c9gIFwUE8XyfHme50hHGw+siDm//3ES5Fu9nrKNL70m97oAhXI+4bUqa+t0T4EQA5M9o1wvaOGRyj32/wOKqc/jodBwcCp7zuJ3AWCv+1an80xFV/eUloMOZ1CeqPs2WopnT2WwCHLFguq8eIiuATc3BbiQGZHUreK62gEyrrCSvOK4s74iLOrvsGPaVU+kc+VWQNgMrzXg3UZfvBHZJ9ofIqEFouc8+JYjPj+9pShR47S6nnVeHImcC9C7BYllWrVPIOYRlD5Z/tSgcn8sUsVTh0By2ROiFejGE0K3lkdVyk6k2tNH51I3priYuU2Dk+4RJjpuyXxyC7Y7lUUTZaiLbLVeKLiM7NXECsgFt+uj1r4ZUpc/hYLsPmgid2G+B1uKIpixx4VXAmswPF1mtVmI95sj4lO8rTyiz6Bpbd6LfZkgKCtvQQ7FT2IF8AZ1ePyz3X+duZqrbnHEzyrh68fCf+5PMqbREwZ/pZjOhQBNdD2QJ0RUltWM8CZ48YAQ==.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1oYWlrdS01LjUtMjAyNjEwMDd8Y2xhdWRlLW9uLWF3cyJ9",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_01Evq67UsiNMtSctcjugS9i3",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "ticket_type": "access",
+      "reason": "Customer paid but cannot get into the members area, and the welcome email link has expired."
+     },
+     "name": "sort_ticket",
+     "type": "tool_use"
+    }
+   ],
+   "model": "anthropic/claude-haiku-5.5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "tool_use",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 2250,
+    "output_tokens": 237,
+    "output_tokens_details": {
+     "thinking_tokens": 135
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard",
+    "cost": 0.0003435,
+    "is_byok": false,
+    "cost_details": {
+     "upstream_inference_cost": 0.0003435,
+     "upstream_inference_prompt_cost": 0.000225,
+     "upstream_inference_completions_cost": 0.0001185
+    }
+   },
+   "context_management": null,
+   "provider": "Claude Platform on AWS"
+  },
+  "latency": 2.15,
+  "request_id": "gen-1791882456-XtV5hqaWGOs6nvxoIY8J"
+ },
+ {
+  "request_key": "9283d6f8f6ce2255",
+  "response": {
+   "id": "msg_011CfyyMJimc6NeM9jdhMjvo",
+   "container": null,
+   "content": [
+    {
+     "id": "toolu_01H9sKn2Y8HnxayfT2tvkYGP",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {},
+     "name": "find_customer",
+     "type": "tool_use"
+    }
+   ],
+   "model": "anthropic/claude-haiku-5.5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "tool_use",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 2500,
+    "output_tokens": 27,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard",
+    "cost": 0.0002635,
+    "is_byok": false,
+    "cost_details": {
+     "upstream_inference_cost": 0.0002635,
+     "upstream_inference_prompt_cost": 0.00025,
+     "upstream_inference_completions_cost": 1.35e-05
+    }
+   },
+   "context_management": null,
+   "provider": "Claude Platform on AWS"
+  },
+  "latency": 1.25,
+  "request_id": "gen-1791882458-b4JXcarEKrVcUCdI5k4t"
+ },
+ {
+  "request_key": "9c4a1dbe70ae39db",
+  "response": {
+   "id": "msg_011CfyyMQ3k5s8d5Zjo7qUV3",
+   "container": null,
+   "content": [
+    {
+     "signature": "CAQSigkKEAgSGAI4AUIIdGhpbmtpbmcSDJB5cv/0iAwJFoVshhoMoEDfiekq2ak3SkjhIjCDeAgNRBS8h/ePmQs+YhnH0u7Md+0WDebuMc4xQ6FYc+ZCIuUIPJAXEaRV9xh80QkqpwjVMk5MUEwndo7eU5Llut+i3JNjlRB3kVvSyoPaW7Za8BhfoQ4m7u2ITkiv8W1YBZFEibm40v0jTDrPs/HTi8ff9IHUzmP5+DBKr73Z145PHFLz6JRXY9+NFqQXwMwoPsk8ne72vTn1mqVa6VDuOGAmq/6m0aAAJELu3LwGuR7mcIr9FpdqeP23PfJVvw8R9MYi4uQyJ8JThNKNMyP0Y004VaLgj6gya9XGOB6d5jRTXTsSKcoBbX78raexa5MyGJeER58+Q8JYCOSo2RQwUiYzDQj9yzmvIXHJuYJ0uVmJQBltwKje/UlHPXIkKsU6i+3dsXdoungWVITc7307XaN53OI1ONTlpd742TltJsc+RF/skxL4PgghJ65E7wp7imi9GVFLUuruPlTyvKgzATm+JioXzyCEY+nx2qG4myes+OmIKQSEfap9Qaw9GHu4p1wPKr2/iXhguga6Ksj2Y4ZdeqRt5ebSaGigpeyS2EJdPUetNvjhM6oxIoZdyR2U7LgbKDLTyGTCYZolLcb44giLFM66HwIIknd9KRgWPxnh5wiBSklBwVodPia0MrRxL0pGYiAxfyFcRhHFj5ffCAJkUAvifDHijXGncfizka/+U/oWilXiynuhXsFs73l1lhQl4+EMQVy02Yj6b3wo/Fvcsw8q4hTjZ/7mfrXyqJDuIsSIxjkRyaqLRr+EfHBDUiTv/fGgBG9B0GHz3MO1mCFCq3SBA0plMgzTtPzi/zVP1i4ayjy5PP7p1mtYi/AeD4Ph0UFFhbzVa6ptLfq+5kq8mCb33/qHHtcCpdQmtKVyMKdm5ZosDluAza3bW7vGnRKl1YKwfzyaC3gxJG376YFnF8+WJTvwMyq437HBmihqgVfKsgC+KFI2OQt6b5weOAdYFyI0zkdOknq+i6xCwGxlcCI8Zzgv1En87on0KMouyVKb/4IH21My6861rB9ddIkOAgZ8MRTsI9JMq7Zyzf2UotnZdj33gvxhgaDB9zcGyJcy94XUKxAAhlccAP1K21o/kR9MRccc0bJJXL1N5/KMCbldDBklyYYIyO9P1f6yiTHhh80phPeJPgspuRE5nPNrFuzCHwfwhHFTjPx58d8iokQ+WHcMgnxiYlRHSgiYPTEjCusiw0rqo6HS+ERhsZndQDfWyuo6g83odnBJ5govH/7cAOplWiGGkauVxdwnPLSRmwv19sRwrJzHc6RGCorgk6FcbNgRh52kIcR9vfsJcGVEMgQMcHaiR3nL9eNV8ftePQWFKs+XaSvsJc0LPKT7YEDASJ8a3158F3lNV1w1G3wM/Aw24gwGMBgnEUJJ4Ka7gGZCU7I72kU9p8SkUeInOp/z2dSp8anLHD0h2OsWOYSCKZZlnM0/JwTKBkGWxX9/ehjPuXd/XxNDPJRg8B+QId86MFHBGAE=.eyJlbmRwb2ludF9zbHVnIjoiYW50aHJvcGljL2NsYXVkZS1oYWlrdS01LjUtMjAyNjEwMDd8Y2xhdWRlLW9uLWF3cyJ9",
+     "thinking": "",
+     "type": "thinking"
+    },
+    {
+     "id": "toolu_013CdRVM5sncKg4buqNGUVTN",
+     "caller": {
+      "type": "direct"
+     },
+     "input": {
+      "ticket_type": "access",
+      "decision": "answered",
+      "reply": "Hi Hana, thanks for your message. We could not find an account for the email address you wrote from, so I cannot check your access from here. Please write to us again from the email address you used on your Kitebridge account, and include your payment date. We will look into it from there.\n\nKitebridge Support",
+      "sources": [],
+      "note_for_team": "Sender hana.s.phone@example.org has no account (find_customer returned no match). Customer says they paid last week and the welcome email link expired. Nothing was verified or changed. No read_skill tool was available to me, so I did not follow an access skill. If the customer writes from their account email, handle the access issue then."
+     },
+     "name": "write_reply",
+     "type": "tool_use"
+    }
+   ],
+   "model": "anthropic/claude-haiku-5.5",
+   "role": "assistant",
+   "stop_details": null,
+   "stop_reason": "tool_use",
+   "stop_sequence": null,
+   "type": "message",
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 2566,
+    "output_tokens": 466,
+    "output_tokens_details": {
+     "thinking_tokens": 136
+    },
+    "server_tool_use": null,
+    "service_tier": "standard",
+    "speed": "standard",
+    "cost": 0.0004896,
+    "is_byok": false,
+    "cost_details": {
+     "upstream_inference_cost": 0.0004896,
+     "upstream_inference_prompt_cost": 0.0002566,
+     "upstream_inference_completions_cost": 0.000233
+    }
+   },
+   "context_management": null,
+   "provider": "Claude Platform on AWS"
+  },
+  "latency": 3.19,
+  "request_id": "gen-1791882460-YyuGFIrUgj1VgQlNxoZT"
+ }
+]

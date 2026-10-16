@@ -1,0 +1,26 @@
+# Agent settings. Plain "name: value" lines. Lines starting with # are notes.
+
+# The business (used in replies and links)
+business_name: Kitebridge
+review_link: https://kitebridge.example/review
+access_email_from: hello@kitebridge.example
+screen_note: Made-up business and data.
+
+# L2 Agent
+model: haiku                    # haiku = Claude Haiku 5.5, sonnet = Claude Sonnet 5.5
+effort: low                     # low, medium or high: how hard the model thinks
+max_steps_per_ticket: 10        # stops a confused agent from looping
+max_cost_per_ticket_usd: 0.20   # stops a ticket that costs too much; it goes to a person
+demo_date: 2026-10-18           # the rules use this date as "today". Empty = the real date.
+
+# L5 Actions and rules
+eligible_refunds: person_approves   # person_approves: the agent opens a request, a person approves it
+                                    # auto_under_limit: at or under the limit, the refund is done at once
+auto_refund_limit_usd: 50
+
+# Demo screen
+layers_on: 7                    # how many layers are on when the page opens (1 to 7)
+run_mode: recorded              # recorded = play the saved model answers (code still runs), live = call the model
+step_reveal: manual             # manual = one step per N key, auto = steps appear as they come
+timeout_seconds: 30             # one model call waits this long at most
+retries: 1

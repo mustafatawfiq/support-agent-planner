@@ -1,0 +1,2 @@
+customer_id,name,email,status,plan,last_purchase_date,last_purchase_amount,refunds_last_12_months,access,internal_note
+C-0001,Example Person,example.person@example.com,active,monthly,2026-10-01,29.00,0,active,
