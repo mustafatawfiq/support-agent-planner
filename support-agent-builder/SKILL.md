@@ -1,6 +1,6 @@
 ---
 name: support-agent-builder
-description: Plans and builds the first version of a customer support agent for the user's own business, in an empty folder. Interviews them one step at a time, writes support-agent-plan.md, builds the agent folder in seven layers from a tested template, helps connect their help desk and customer data with keys in .env, builds a test set from 20 of their past tickets, and explains how to test it and choose a model. Use when someone wants to plan, build or start an AI support agent, a help desk agent or an inbox assistant.
+description: Plans and builds the first version of a customer support agent for the user's own business, in an empty folder. Interviews them one step at a time, writes support-agent-plan.md, builds the agent folder in seven layers from a tested template, helps connect their help desk and customer data with keys in .env, builds a test set from 20 of their past tickets, explains how to test it and choose a model, and then helps them go live. Use when someone wants to plan, build or start an AI support agent, a help desk agent or an inbox assistant.
 ---
 
 # Support agent builder
@@ -16,6 +16,7 @@ The files you need are next to this SKILL.md:
 | `build.md` | before phase 2 |
 | `connect.md` | before phase 3 |
 | `tests.md` | before phase 4 |
+| `go-live.md` | after phase 5, before the go-live step |
 | `template/` | the agent folder you copy in phase 2. Its code is tested. Fill in its files; do not rewrite its code. |
 
 ## The five phases
@@ -31,6 +32,12 @@ The files you need are next to this SKILL.md:
 
 Tell them where they are as you go, for example "Phase 2 of 5: build". At the end of each phase, say in two or
 three lines what is done and what is open, then ask if they want to go on.
+
+## After phase 5: go live
+
+When phase 5 is done and they want it, help them go live (`go-live.md`). It is a step after the five phases,
+not a sixth phase. Their own computer first, with every type still a draft. Then a couple of questions to choose
+where it runs, and help to set it up. It starts in stage 1: the agent drafts, and a person sends.
 
 ## Rules for the whole session
 
@@ -59,7 +66,8 @@ three lines what is done and what is open, then ask if they want to go on.
 
 - When they ask you to use this skill, start with a short welcome: what you will do (the five phases), that
   the interview has 9 steps, that they can say "skip" or "back" at any step, that nothing is sent to
-  customers, and that nothing costs money without their yes. Then start phase 1.
+  customers, and that nothing costs money without their yes. Say in one line that after phase 5 you can help them
+  go live. Then start phase 1.
 - If `support-agent-plan.md` already exists, ask if you should continue from it.
 - If the folder already has `support-agent/`, run `./start.sh check`, say what it shows, and offer to
   continue at the first phase that is not done.
@@ -71,4 +79,5 @@ When phase 5 is done, or when they want to stop, end with:
 - what is built, by layer, in one short table;
 - the open items from the plan and the check;
 - their first step this week, in their words;
-- the next step after that: run the tests, fix the fails, then switch on one ticket type.
+- the next step after that: run the tests, fix the fails, then switch on one ticket type;
+- when phase 5 is done, offer the go-live step (`go-live.md`).

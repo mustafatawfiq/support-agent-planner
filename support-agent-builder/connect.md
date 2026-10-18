@@ -33,7 +33,7 @@ unchanged.
    - `./start.sh lookup name@their-domain` looks up one customer they choose and prints the fields the agent gets.
    Read the result with them. Fix anything wrong.
 8. Do not run the agent on real messages yet, and do not call `save_draft` on a real ticket. That comes after
-   the tests pass, when they ask for it.
+   the tests pass, when they ask for it, in the go-live step (`go-live.md`).
 
 ## Their own system with no API
 

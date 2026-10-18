@@ -92,6 +92,9 @@ reply stays a draft. When you get a message like it, add it to your test set.
    5. **Test and choose the model.** It explains the tests and how to compare models, and runs them only when
       you say yes, because they cost money.
 
+   After phase 5, it helps you go live: your own computer first, then a couple of questions to choose where it
+   runs, and help to set it up. See "Run it live" below.
+
 To use the skill in any folder, copy `support-agent-builder` into `~/.claude/skills/` as well.
 
 ## Test it, and keep testing
@@ -138,9 +141,9 @@ Whichever way you run it:
 - **A spend cap.** The kit's app has one: live runs stop when they reach it, and a ticket that hits its own cost cap
   goes to a person.
 
-You do not have to build this yourself. Ask Claude to set it up, and tell it three things: which help desk you
-use, webhook or inbox check, and where it should run. Prompt 5 in `PROMPTS.md` has the words. Keep every ticket
-type a draft until its tests pass.
+You do not have to build this yourself. The skill's go-live step (`support-agent-builder/go-live.md`) does it with
+you after phase 5. It asks a couple of questions, recommends the simplest option that fits, and helps you set it up.
+Prompt 5 in `PROMPTS.md` starts it. Keep every ticket type a draft until its tests pass.
 
 ## Good to know
 

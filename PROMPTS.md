@@ -49,10 +49,10 @@ The tests call your model with your API key, so each run costs a little. Run the
 when a new model comes out, and when prices change. When the agent gets a real ticket wrong, add it to the
 test set, rewritten without names, with the right outcome.
 
-## When the tests pass: run it live
+## After phase 5: go live
 
-Prompt 5, run the agent on every new ticket:
+Prompt 5, the go-live step:
 
 ```
-Add a listener so my agent runs on every new ticket. My help desk is ____. Use ____ (a webhook on each new ticket, or a check of the inbox every few minutes). Run it on my computer first and show me one ticket from start to finish, saved as a draft. Then help me host the listener and the agent where they are always on: ____ (a small cloud server or an app host). Use an API key, never a subscription login, keep the key on the server, and keep the spend cap on. Keep every ticket type a draft. Show me each change before it runs on real messages. Ask me if anything is missing. Do not invent facts.
+Use the go-live step of the support-agent-builder skill to take my agent live. Start on my computer, with every ticket type a draft. Ask me your questions one at a time, then help me set it up where it can run all day. Use an API key, never a subscription login, keep the key on the server, and keep the spend cap on. Show me each change before it runs on real messages. Do not invent facts.
 ```
