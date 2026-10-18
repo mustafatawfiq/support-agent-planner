@@ -40,7 +40,7 @@ agent's folder, `support-agent/`:
 |---|---|---|
 | Context | What the agent knows | `instructions.md`, `knowledge/`, `policies/` |
 | Connections | What data it can reach | Your help desk and your customer data, read through their APIs. The keys go in `.env`. Until you connect them, it reads the made-up samples in `inbox/` and `data/`. |
-| Capabilities | What it can do | `skills/`, one per ticket type (for example `refund.md`), and `tools/` (find the customer, send an access link) |
+| Capabilities | What it can produce | `skills/`, one per ticket type (for example `refund.md`), and `tools/` (find the customer, send an access link) |
 | Cadence | When it acts on its own | A new ticket starts it. See "Run it live" below. |
 
 Inside, the kit organises the same folder in seven layers, from L1 Channel to L7 Log and tests. The interview
