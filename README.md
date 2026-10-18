@@ -113,13 +113,30 @@ listener. There are two common ways:
 - **A webhook.** Your help desk calls the listener on each new ticket.
 - **An inbox check.** The listener looks for new messages every few minutes.
 
-Run the listener on your own computer first. Then host the listener and the agent where they are always on. Two
-common options:
+Customers never talk to Claude Code. Claude Code builds your agent. What runs for customers is the kit's app: a
+narrow agent that has only its own tools. A customer cannot talk it into using a tool it does not have.
+
+### Which way to run it
+
+1. **Your own small backend.** The Messages API with your own tool loop, on a small server. The kit works this way,
+   so start here.
+2. **Managed Agents.** Anthropic runs the agent for you. It is still in beta, and it is not for health or other
+   regulated data.
+3. **The Agent SDK on your own servers.** For when the agent must run on machines you control. It is the most work,
+   because you must shut off everything a customer should never reach.
+
+Run the listener and the agent on your own computer first. Then host them where they are always on. Two common
+options for the kit's backend:
 
 - **A small cloud server (a VPS)**, for example Hetzner or DigitalOcean.
 - **An app host**, for example Railway or Render.
 
-Either way, the host needs the keys from your `.env` file. Keep them private there.
+Whichever way you run it:
+
+- **An API key, never a subscription login.**
+- **The key stays on the server.** The host needs the keys from your `.env` file. Keep them private there.
+- **A spend cap.** The kit's app has one: live runs stop when they reach it, and a ticket that hits its own cost cap
+  goes to a person.
 
 You do not have to build this yourself. Ask Claude to set it up, and tell it three things: which help desk you
 use, webhook or inbox check, and where it should run. Prompt 5 in `PROMPTS.md` has the words. Keep every ticket
