@@ -113,8 +113,13 @@ listener. There are two common ways:
 - **A webhook.** Your help desk calls the listener on each new ticket.
 - **An inbox check.** The listener looks for new messages every few minutes.
 
-Run the listener on your own computer first. Then run the listener and the agent on a small server that is
-always on. That server needs your `.env` file too, so keep the file private there.
+Run the listener on your own computer first. Then host the listener and the agent where they are always on. Two
+common options:
+
+- **A small cloud server (a VPS)**, for example Hetzner or DigitalOcean.
+- **An app host**, for example Railway or Render.
+
+Either way, the host needs the keys from your `.env` file. Keep them private there.
 
 You do not have to build this yourself. Ask Claude to set it up, and tell it three things: which help desk you
 use, webhook or inbox check, and where it should run. Prompt 5 in `PROMPTS.md` has the words. Keep every ticket

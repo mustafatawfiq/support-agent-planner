@@ -54,5 +54,5 @@ test set, rewritten without names, with the right outcome.
 Prompt 5, run the agent on every new ticket:
 
 ```
-Add a listener so my agent runs on every new ticket. My help desk is ____. Use ____ (a webhook on each new ticket, or a check of the inbox every few minutes). Run it on my computer first and show me one ticket from start to finish, saved as a draft. Then help me run the listener and the agent on a small always-on server: ____. Keep every ticket type a draft. Show me each change before it runs on real messages. Ask me if anything is missing. Do not invent facts.
+Add a listener so my agent runs on every new ticket. My help desk is ____. Use ____ (a webhook on each new ticket, or a check of the inbox every few minutes). Run it on my computer first and show me one ticket from start to finish, saved as a draft. Then help me host the listener and the agent where they are always on: ____ (a small cloud server or an app host). Keep every ticket type a draft. Show me each change before it runs on real messages. Ask me if anything is missing. Do not invent facts.
 ```
